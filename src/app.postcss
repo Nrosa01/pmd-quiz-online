@@ -4,6 +4,18 @@
 
 @tailwind utilities;
 
+@font-face {
+  font-family: pmdFont;
+  src: url(PKMN-Mystery-Dungeon.ttf);
+}
+
+* {
+  font-family: pmdFont;
+  text-decoration: none;
+  font-size: 1.5rem;
+  /* line-height: 1.2rem; */
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -26,4 +38,30 @@
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
+  }
+
+  @layer components {
+    .dynamicMargin {
+      @apply mx-4 xl:mx-32 md:mx-16 sm:mx-8;
+    }
+
+    .dynamicWidth {
+      @apply w-full md:w-[30vw];
+    }
+
+    .dynamicText {
+      @apply text-base sm:text-2xl xl:text-3xl;
+    }
+  }
+
+  .text-box {
+    padding: 0.5rem;
+    text-align: center;
+
+    background-color: #212021df;
+
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 15px solid transparent;
+    border-image: url(pmdtextbox.png) 43 round;
   }
