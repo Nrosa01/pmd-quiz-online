@@ -12,7 +12,7 @@
       let points = score.points;
 
       let sign = clicked ? -1 : 1;
-      $store.points[nature] += sign * Number(points);
+      $store.points[nature] += sign * points;
     });
 
     // Toggle clicked

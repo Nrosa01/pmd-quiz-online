@@ -10,7 +10,6 @@
 </div>
 <main class="relative">
   <div class="flex flex-col flex-wrap h-screen justify-end">
-    <!-- <div class="flex flex-col flex-wrap-reverse h-screen place-items-center justify-center bg-cover bg-[url(background.png)]"> -->
     <DebugNature />
     <QuestionSystem />
   </div>
