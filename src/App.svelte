@@ -4,22 +4,11 @@
 
   import data from "./assets/dataEs.json";
 
-  // Add id field to responses, id must be the first field
-  data.forEach((question) => {
-    question.responses.forEach((response, index) => {
-      response.id = index;
-    });
-  });
-  
-
-  // Copy to clipboard
-  navigator.clipboard.writeText(JSON.stringify(data));
-
   let fadeInOnScroll = "motion-safe:animate-fadeIn";
 </script>
 
 <div
-  class="fixed h-screen w-screen justify-center bg-cover bg-[url(background.png)]">
+  class="fixed h-screen w-screen justify-center bg-cover bg-[url(background.png)] brightness-75">
 </div>
 <main class="relative">
   <div class="flex flex-col flex-wrap h-screen justify-end">

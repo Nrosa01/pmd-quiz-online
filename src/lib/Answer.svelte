@@ -2,17 +2,17 @@
 
 <script>
   import { store } from "../assets/store.js";
+  import { createEventDispatcher } from "svelte";
 
   export let answer;
   export const responses = {};
 
-  import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
 
   export let clicked = false;
-  $: classes = `transition duration-200 ease-in-out ${
-    clicked ? "scale-110" : "scale-100"
-  }`;
+  export let disabled = false;
+  $: classes = `transition duration-200 ease-in-out ${clicked ? "scale-110" : "scale-100"}
+                ${disabled ? "brightness-50" : "brightness-100"}`; 
 
   export const click = onClick;
 
@@ -24,9 +24,8 @@
 
       let sign = clicked ? -1 : 1;
       $store.points[nature] += sign * points;
-
     });
-    
+
     // Toggle clicked
     clicked = !clicked;
 
@@ -34,12 +33,25 @@
       id: answer.id,
     });
   }
+
+  function sendMessage(event) {
+    const type = event.type;
+    dispatch("event", {
+        id: answer.id,
+        type: type
+    })
+  }
 </script>
 
-<div class="h-fit wmin-w-screen dynamicMargin dynamicText transitiona-all duration-200 {clicked ? "my-2" : "my-1"}">
+<div
+  class="h-fit min-w-screen dynamicMargin dynamicText transitiona-all duration-200  {clicked
+    ? 'my-2'
+    : 'my-1'}">
   <button
     on:click="{onClick}"
+    on:mouseenter="{sendMessage}"
+    on:mouseleave="{sendMessage}"
     class="relative text-box dynamicWidth float-right {classes}">
-    <h1 class="text-white">{answer.response}</h1>
+    <h1 class="text-white select-none">{answer.response}</h1>
   </button>
 </div>
