@@ -11,17 +11,9 @@
   let questions = [];
 
   let carousel = null;
-  let carouselIndex = 0;
-  let pagesCount = 0;
 
   function onCorrectQuestion(event) {
     carousel.goToNext();
-    carouselIndex++;
-
-    console.log("Index: " + carouselIndex + " Pages: " + pagesCount);
-    if (carouselIndex === (pagesCount - 1)) {
-      radial.createChart();
-    }
   }
 
   function getRandomNumOfQuestions(numberOfQuestions) {
@@ -46,11 +38,18 @@
       numberOfQuestions = data.length;
       questions = data;
     }
-
-    pagesCount = numberOfQuestions + 1;
   });
-  let radial = null;
 </script>
+
+<div class="fixed flex-col-reverse justify-start md:flex-col md:justify-end z-10">
+  <div class="flex flex-col justify-center items-center md:items-start mb-[25%]">
+    <RadialChart />
+  </div>
+  <!-- <div
+    class="text-box min-w-screen my-2 dynamicMargin dynamicText cursor-default">
+    <h1 class="text-white select-none">Esto es una prueba</h1>
+  </div> -->
+</div>
 
 <Carousel
   bind:this="{carousel}"
@@ -63,14 +62,4 @@
       on:correctQuestion="{onCorrectQuestion}"
       questionData="{data[question.id]}" />
   {/each}
-
-  <div class="flex flex-col-reverse justify-start md:flex-col md:justify-end">
-    <div class="flex flex-col justify-center items-center md:items-start">
-      <RadialChart bind:this="{radial}" />
-    </div>
-    <div
-      class="text-box min-w-screen my-2 dynamicMargin dynamicText cursor-default">
-      <h1 class="text-white select-none">Esto es una prueba</h1>
-    </div>
-  </div>
 </Carousel>

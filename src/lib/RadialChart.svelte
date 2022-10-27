@@ -6,17 +6,29 @@
   let chart = null;
   let myChart = null;
 
+  store.subscribe((value) => {
+    if (myChart) updateData();
+  });
+
+  function updateData() {
+    let values = [];
+
+    for (let [key, value] of Object.entries($store.points)) {
+      values.push(value / $store.maxPoints[key]);
+    }
+
+    myChart.data.datasets[0].data = values;
+
+    myChart.update();
+  }
+
   function createData() {
-    // Create the data object for the chart
-    // Labels are the $store.points keys
-    // Label is Natures
-    // Data is the values of the $store.points values
     let labels = [];
     let values = [];
 
     for (let [key, value] of Object.entries($store.points)) {
       labels.push(key);
-      values.push((value / $store.maxPoints[key]));
+      values.push(value / $store.maxPoints[key]);
     }
 
     let data = {
@@ -49,7 +61,7 @@
     return data;
   }
 
-  export function createChart() {
+  function createChart() {
     const ctx = chart.getContext("2d");
     myChart = new Chart(ctx, {
       type: "radar",
@@ -63,6 +75,10 @@
       },
     });
   }
+
+  onMount(() => {
+    createChart();
+  });
 
   let classes = $$props.classes;
 </script>
