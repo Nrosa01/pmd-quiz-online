@@ -8,18 +8,21 @@
         "scores": [
           { "nature": "Osada", "points": 1 },
           { "nature": "Fuerte", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Dejo de correr",
-        "scores": [{ "nature": "Rara", "points": 2 }]
+        "scores": [{ "nature": "Rara", "points": 2 }],
+        "id": 1
       },
       {
         "response": "¿Hay que repetir la salida!",
         "scores": [
           { "nature": "Audaz", "points": 2 },
           { "nature": "Alocada", "points": 1 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -32,15 +35,18 @@
         "scores": [
           { "nature": "Agitada", "points": 2 },
           { "nature": "Grosera", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Un drama",
-        "scores": [{ "nature": "Fuerte", "points": 2 }]
+        "scores": [{ "nature": "Fuerte", "points": 2 }],
+        "id": 1
       },
       {
         "response": "Una romántica",
-        "scores": [{ "nature": "Rara", "points": 2 }]
+        "scores": [{ "nature": "Rara", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -50,22 +56,26 @@
     "responses": [
       {
         "response": "De los que estudian a diario",
-        "scores": [{ "nature": "Fuerte", "points": 2 }]
+        "scores": [{ "nature": "Fuerte", "points": 2 }],
+        "id": 0
       },
       {
         "response": "De los que estudian si se acuerdan",
         "scores": [
           { "nature": "Rara", "points": 2 },
           { "nature": "Activa", "points": 1 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "De los que estudian lo justo",
-        "scores": [{ "nature": "Mansa", "points": 1 }]
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 2
       },
       {
         "response": "Voy a necesitar ayuda...",
-        "scores": [{ "nature": "Huraña", "points": 2 }]
+        "scores": [{ "nature": "Huraña", "points": 2 }],
+        "id": 3
       }
     ]
   },
@@ -78,18 +88,21 @@
         "scores": [
           { "nature": "Osada", "points": 1 },
           { "nature": "Fuerte", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Pido ayuda",
-        "scores": [{ "nature": "Dócil", "points": 1 }]
+        "scores": [{ "nature": "Dócil", "points": 1 }],
+        "id": 1
       },
       {
         "response": "Que la haga otro",
         "scores": [
           { "nature": "Audaz", "points": 2 },
           { "nature": "Grosera", "points": 1 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -102,14 +115,16 @@
         "scores": [
           { "nature": "Audaz", "points": 1 },
           { "nature": "Dócil", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Hombre, nunca es fácil",
         "scores": [
           { "nature": "Huraña", "points": 1 },
           { "nature": "Miedosa", "points": 1 }
-        ]
+        ],
+        "id": 1
       }
     ]
   },
@@ -117,17 +132,23 @@
     "id": 5,
     "title": "¿Estudias con regularidad?",
     "responses": [
-      { "response": "Sí", "scores": [{ "nature": "Dócil", "points": 2 }] },
+      {
+        "response": "Sí",
+        "scores": [{ "nature": "Dócil", "points": 2 }],
+        "id": 0
+      },
       {
         "response": "Bueno...",
         "scores": [
           { "nature": "Ingenua", "points": 2 },
           { "nature": "Alocada", "points": 1 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "¿Lo mío es el deporte!",
-        "scores": [{ "nature": "Agitada", "points": 2 }]
+        "scores": [{ "nature": "Agitada", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -140,7 +161,8 @@
         "scores": [
           { "nature": "Dócil", "points": 2 },
           { "nature": "Miedosa", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Voy a ver qué pasa",
@@ -148,7 +170,8 @@
           { "nature": "Audaz", "points": 1 },
           { "nature": "Alegre", "points": 2 },
           { "nature": "Plácida", "points": 1 }
-        ]
+        ],
+        "id": 1
       }
     ]
   },
@@ -161,18 +184,21 @@
         "scores": [
           { "nature": "Audaz", "points": 2 },
           { "nature": "Miedosa", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "La echamos a suertes",
         "scores": [
           { "nature": "Dócil", "points": 2 },
           { "nature": "Alocada", "points": 2 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "¿Tonto el último!",
-        "scores": [{ "nature": "Agitada", "points": 2 }]
+        "scores": [{ "nature": "Agitada", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -185,18 +211,21 @@
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Agitada", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Como una rosa",
-        "scores": [{ "nature": "Mansa", "points": 1 }]
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 1
       },
       {
         "response": "Con sueño, pero bien",
         "scores": [
           { "nature": "Dócil", "points": 1 },
           { "nature": "Miedosa", "points": 2 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -209,21 +238,24 @@
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Audaz", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Les sigo el rollo",
         "scores": [
           { "nature": "Huraña", "points": 1 },
           { "nature": "Miedosa", "points": 2 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "Depende de la situación",
         "scores": [
           { "nature": "Mansa", "points": 1 },
           { "nature": "Rara", "points": 1 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -236,14 +268,16 @@
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Mansa", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Evidente, le tomo un poco el pelo",
         "scores": [
           { "nature": "Huraña", "points": 2 },
           { "nature": "Ingenua", "points": 1 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "¿Lo grito a los cuatro vientos!",
@@ -251,11 +285,13 @@
           { "nature": "Audaz", "points": 1 },
           { "nature": "Osada", "points": 2 },
           { "nature": "Agitada", "points": 2 }
-        ]
+        ],
+        "id": 2
       },
       {
         "response": "No se lo digo. ¿Qué vergüenza!",
-        "scores": [{ "nature": "Miedosa", "points": 1 }]
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 3
       }
     ]
   },
@@ -265,21 +301,24 @@
     "responses": [
       {
         "response": "¿Huyo! ¿Qué vergüenza!",
-        "scores": [{ "nature": "Miedosa", "points": 2 }]
+        "scores": [{ "nature": "Miedosa", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Respondo a las preguntas",
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Grosera", "points": 2 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "¿Yuju! ¿Estoy en la tele!",
         "scores": [
           { "nature": "Audaz", "points": 1 },
           { "nature": "Ingenua", "points": 2 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -292,9 +331,14 @@
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Huraña", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "Paso...", "scores": [{ "nature": "Mansa", "points": 1 }] }
+      {
+        "response": "Paso...",
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -303,21 +347,24 @@
     "responses": [
       {
         "response": "Me quedo y lo veo",
-        "scores": [{ "nature": "Serena", "points": 1 }]
+        "scores": [{ "nature": "Serena", "points": 1 }],
+        "id": 0
       },
       {
         "response": "Me uno a la canción",
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Ingenua", "points": 2 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "Me marcho",
         "scores": [
           { "nature": "Huraña", "points": 1 },
           { "nature": "Grosera", "points": 2 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -330,18 +377,21 @@
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Ingenua", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Hago oídos sordos...",
         "scores": [
           { "nature": "Dócil", "points": 1 },
           { "nature": "Agitada", "points": 1 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "¿¿Quién ha sido?!",
-        "scores": [{ "nature": "Osada", "points": 2 }]
+        "scores": [{ "nature": "Osada", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -354,14 +404,16 @@
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Grosera", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "No",
         "scores": [
           { "nature": "Activa", "points": 1 },
           { "nature": "Miedosa", "points": 1 }
-        ]
+        ],
+        "id": 1
       }
     ]
   },
@@ -375,9 +427,14 @@
           { "nature": "Audaz", "points": 1 },
           { "nature": "Alegre", "points": 2 },
           { "nature": "Plácida", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Mansa", "points": 1 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -389,15 +446,18 @@
         "scores": [
           { "nature": "Activa", "points": 1 },
           { "nature": "Grosera", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "¿Me tiro!",
-        "scores": [{ "nature": "Agitada", "points": 2 }]
+        "scores": [{ "nature": "Agitada", "points": 2 }],
+        "id": 1
       },
       {
         "response": "¿Me tumbo!",
-        "scores": [{ "nature": "Huraña", "points": 2 }]
+        "scores": [{ "nature": "Huraña", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -410,14 +470,16 @@
         "scores": [
           { "nature": "Agitada", "points": 2 },
           { "nature": "Ingenua", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "El ancho",
         "scores": [
           { "nature": "Rara", "points": 2 },
           { "nature": "Miedosa", "points": 1 }
-        ]
+        ],
+        "id": 1
       }
     ]
   },
@@ -432,11 +494,13 @@
           { "nature": "Activa", "points": 2 },
           { "nature": "Agitada", "points": 2 },
           { "nature": "Alocada", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Pido ayuda",
-        "scores": [{ "nature": "Miedosa", "points": 1 }]
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 1
       }
     ]
   },
@@ -449,7 +513,8 @@
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Huraña", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "¿Me río! ¿Es divertidísimo!",
@@ -457,7 +522,8 @@
           { "nature": "Agitada", "points": 2 },
           { "nature": "Ingenua", "points": 2 },
           { "nature": "Alocada", "points": 1 }
-        ]
+        ],
+        "id": 1
       }
     ]
   },
@@ -467,11 +533,13 @@
     "responses": [
       {
         "response": "¿Me enfado!",
-        "scores": [{ "nature": "Activa", "points": 2 }]
+        "scores": [{ "nature": "Activa", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Me pongo triste",
-        "scores": [{ "nature": "Huraña", "points": 2 }]
+        "scores": [{ "nature": "Huraña", "points": 2 }],
+        "id": 1
       },
       {
         "response": "¿Yuju! ¿Pelea de agua!",
@@ -479,7 +547,8 @@
           { "nature": "Agitada", "points": 2 },
           { "nature": "Alegre", "points": 2 },
           { "nature": "Ingenua", "points": 2 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -489,9 +558,14 @@
     "responses": [
       {
         "response": "¿Síii!",
-        "scores": [{ "nature": "Ingenua", "points": 2 }]
+        "scores": [{ "nature": "Ingenua", "points": 2 }],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Mansa", "points": 1 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -503,9 +577,14 @@
         "scores": [
           { "nature": "Agitada", "points": 1 },
           { "nature": "Ingenua", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Serena", "points": 2 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Serena", "points": 2 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -514,22 +593,26 @@
     "responses": [
       {
         "response": "¿Anda que menudo susto!",
-        "scores": [{ "nature": "Miedosa", "points": 2 }]
+        "scores": [{ "nature": "Miedosa", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Lo reconozco, me has engañado",
-        "scores": [{ "nature": "Dócil", "points": 2 }]
+        "scores": [{ "nature": "Dócil", "points": 2 }],
+        "id": 1
       },
       {
         "response": "Para nada, no me la has colado",
         "scores": [
           { "nature": "Huraña", "points": 2 },
           { "nature": "Grosera", "points": 2 }
-        ]
+        ],
+        "id": 2
       },
       {
         "response": "¿Eh? ¿Qué?",
-        "scores": [{ "nature": "Plácida", "points": 2 }]
+        "scores": [{ "nature": "Plácida", "points": 2 }],
+        "id": 3
       }
     ]
   },
@@ -542,21 +625,24 @@
         "scores": [
           { "nature": "Osada", "points": 1 },
           { "nature": "Mansa", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Sonrío...",
         "scores": [
           { "nature": "Serena", "points": 2 },
           { "nature": "Huraña", "points": 1 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "Mmm, ¿qué... rico!",
         "scores": [
           { "nature": "Alocada", "points": 1 },
           { "nature": "Miedosa", "points": 1 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -566,15 +652,18 @@
     "responses": [
       {
         "response": "Mantengo una conversación trivial",
-        "scores": [{ "nature": "Serena", "points": 1 }]
+        "scores": [{ "nature": "Serena", "points": 1 }],
+        "id": 0
       },
       {
         "response": "No digo nada",
-        "scores": [{ "nature": "Rara", "points": 1 }]
+        "scores": [{ "nature": "Rara", "points": 1 }],
+        "id": 1
       },
       {
         "response": "Busco una excusa para irme",
-        "scores": [{ "nature": "Miedosa", "points": 2 }]
+        "scores": [{ "nature": "Miedosa", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -584,18 +673,21 @@
     "responses": [
       {
         "response": "Las buenas",
-        "scores": [{ "nature": "Plácida", "points": 2 }]
+        "scores": [{ "nature": "Plácida", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Las malas",
         "scores": [
           { "nature": "Audaz", "points": 1 },
           { "nature": "Ingenua", "points": 2 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "Ninguna",
-        "scores": [{ "nature": "Miedosa", "points": 2 }]
+        "scores": [{ "nature": "Miedosa", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -608,14 +700,16 @@
         "scores": [
           { "nature": "Alocada", "points": 2 },
           { "nature": "Grosera", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "No",
         "scores": [
           { "nature": "Dócil", "points": 1 },
           { "nature": "Mansa", "points": 1 }
-        ]
+        ],
+        "id": 1
       }
     ]
   },
@@ -623,8 +717,16 @@
     "id": 29,
     "title": "Si ves un botón, ¿te entran deseos irrefrenables de pulsarlo?",
     "responses": [
-      { "response": "Sí", "scores": [{ "nature": "Activa", "points": 2 }] },
-      { "response": "No", "scores": [{ "nature": "Serena", "points": 1 }] }
+      {
+        "response": "Sí",
+        "scores": [{ "nature": "Activa", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No",
+        "scores": [{ "nature": "Serena", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -633,15 +735,18 @@
     "responses": [
       {
         "response": "¿Me lo compro ipso facto!",
-        "scores": [{ "nature": "Activa", "points": 2 }]
+        "scores": [{ "nature": "Activa", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Pienso si de verdad me hace falta",
-        "scores": [{ "nature": "Mansa", "points": 1 }]
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 1
       },
       {
         "response": "Pido una rebaja mayor",
-        "scores": [{ "nature": "Audaz", "points": 2 }]
+        "scores": [{ "nature": "Audaz", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -651,15 +756,18 @@
     "responses": [
       {
         "response": "Me como un poco",
-        "scores": [{ "nature": "Activa", "points": 2 }]
+        "scores": [{ "nature": "Activa", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Me aguanto y lo guardo todo",
-        "scores": [{ "nature": "Fuerte", "points": 2 }]
+        "scores": [{ "nature": "Fuerte", "points": 2 }],
+        "id": 1
       },
       {
         "response": "¿Qué merienda? ¿Me la he zampado!",
-        "scores": [{ "nature": "Alocada", "points": 2 }]
+        "scores": [{ "nature": "Alocada", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -669,11 +777,13 @@
     "responses": [
       {
         "response": "¿Y tanto!",
-        "scores": [{ "nature": "Grosera", "points": 2 }]
+        "scores": [{ "nature": "Grosera", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Para nada",
-        "scores": [{ "nature": "Serena", "points": 1 }]
+        "scores": [{ "nature": "Serena", "points": 1 }],
+        "id": 1
       }
     ]
   },
@@ -686,14 +796,16 @@
         "scores": [
           { "nature": "Huraña", "points": 1 },
           { "nature": "Grosera", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "No",
         "scores": [
           { "nature": "Serena", "points": 2 },
           { "nature": "Rara", "points": 1 }
-        ]
+        ],
+        "id": 1
       }
     ]
   },
@@ -707,11 +819,13 @@
           { "nature": "Alegre", "points": 1 },
           { "nature": "Ingenua", "points": 1 },
           { "nature": "Grosera", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "La verdad es que no...",
-        "scores": [{ "nature": "Fuerte", "points": 1 }]
+        "scores": [{ "nature": "Fuerte", "points": 1 }],
+        "id": 1
       }
     ]
   },
@@ -725,9 +839,14 @@
           { "nature": "Audaz", "points": 1 },
           { "nature": "Osada", "points": 2 },
           { "nature": "Grosera", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Miedosa", "points": 1 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -739,15 +858,18 @@
         "scores": [
           { "nature": "Huraña", "points": 2 },
           { "nature": "Grosera", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "¿Tiempo libre!",
-        "scores": [{ "nature": "Serena", "points": 2 }]
+        "scores": [{ "nature": "Serena", "points": 2 }],
+        "id": 1
       },
       {
         "response": "Ni lo uno ni lo otro",
-        "scores": [{ "nature": "Rara", "points": 2 }]
+        "scores": [{ "nature": "Rara", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -757,18 +879,21 @@
     "responses": [
       {
         "response": "Bah, no es más que un juego",
-        "scores": [{ "nature": "Serena", "points": 2 }]
+        "scores": [{ "nature": "Serena", "points": 2 }],
+        "id": 0
       },
       {
         "response": "¿Desato mi furia!",
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Plácida", "points": 2 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "¿Qué va a ser de mí!",
-        "scores": [{ "nature": "Huraña", "points": 2 }]
+        "scores": [{ "nature": "Huraña", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -778,18 +903,21 @@
     "responses": [
       {
         "response": "¿Qué rabia!",
-        "scores": [{ "nature": "Fuerte", "points": 2 }]
+        "scores": [{ "nature": "Fuerte", "points": 2 }],
+        "id": 0
       },
       {
         "response": "¿Me enfado muchísimo!",
-        "scores": [{ "nature": "Dócil", "points": 2 }]
+        "scores": [{ "nature": "Dócil", "points": 2 }],
+        "id": 1
       },
       {
         "response": "Mala suerte, supongo...",
         "scores": [
           { "nature": "Audaz", "points": 2 },
           { "nature": "Serena", "points": 2 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -802,14 +930,16 @@
         "scores": [
           { "nature": "Audaz", "points": 2 },
           { "nature": "Plácida", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "No pasa nada",
         "scores": [
           { "nature": "Activa", "points": 1 },
           { "nature": "Huraña", "points": 2 }
-        ]
+        ],
+        "id": 1
       }
     ]
   },
@@ -822,11 +952,13 @@
         "scores": [
           { "nature": "Activa", "points": 2 },
           { "nature": "Alocada", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Digo que no. ¿Engorda demasiado!",
-        "scores": [{ "nature": "Fuerte", "points": 1 }]
+        "scores": [{ "nature": "Fuerte", "points": 1 }],
+        "id": 1
       },
       {
         "response": "Mmm... ¿Adoro los postres! ♪",
@@ -834,7 +966,8 @@
           { "nature": "Audaz", "points": 2 },
           { "nature": "Alegre", "points": 2 },
           { "nature": "Plácida", "points": 1 }
-        ]
+        ],
+        "id": 2
       }
     ]
   },
@@ -844,15 +977,18 @@
     "responses": [
       {
         "response": "Estudio toda la noche",
-        "scores": [{ "nature": "Fuerte", "points": 2 }]
+        "scores": [{ "nature": "Fuerte", "points": 2 }],
+        "id": 0
       },
       {
         "response": "¿Ya improvisaré algo!",
-        "scores": [{ "nature": "Plácida", "points": 2 }]
+        "scores": [{ "nature": "Plácida", "points": 2 }],
+        "id": 1
       },
       {
         "response": "¿Un examen? Creo que tengo fiebre",
-        "scores": [{ "nature": "Ingenua", "points": 2 }]
+        "scores": [{ "nature": "Ingenua", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -865,18 +1001,21 @@
         "scores": [
           { "nature": "Dócil", "points": 2 },
           { "nature": "Huraña", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "No me enteré bien de la fecha",
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Plácida", "points": 2 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "¿Que empiece la fiesta!",
-        "scores": [{ "nature": "Audaz", "points": 2 }]
+        "scores": [{ "nature": "Audaz", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -889,9 +1028,14 @@
         "scores": [
           { "nature": "Alegre", "points": 1 },
           { "nature": "Plácida", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "Nunca", "scores": [{ "nature": "Mansa", "points": 1 }] }
+      {
+        "response": "Nunca",
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -903,15 +1047,18 @@
         "scores": [
           { "nature": "Activa", "points": 2 },
           { "nature": "Huraña", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Espero un poco antes de responder",
-        "scores": [{ "nature": "Mansa", "points": 1 }]
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 1
       },
       {
         "response": "Lo dejo sonar",
-        "scores": [{ "nature": "Huraña", "points": 1 }]
+        "scores": [{ "nature": "Huraña", "points": 1 }],
+        "id": 2
       }
     ]
   },
@@ -921,15 +1068,18 @@
     "responses": [
       {
         "response": "¿Yo también quiero ir!",
-        "scores": [{ "nature": "Ingenua", "points": 2 }]
+        "scores": [{ "nature": "Ingenua", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Nada... no me interesa",
-        "scores": [{ "nature": "Huraña", "points": 2 }]
+        "scores": [{ "nature": "Huraña", "points": 2 }],
+        "id": 1
       },
       {
         "response": "¿Me invitarán?",
-        "scores": [{ "nature": "Miedosa", "points": 1 }]
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 2
       }
     ]
   },
@@ -942,9 +1092,14 @@
         "scores": [
           { "nature": "Huraña", "points": 2 },
           { "nature": "Grosera", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Plácida", "points": 1 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Plácida", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -953,19 +1108,23 @@
     "responses": [
       {
         "response": "La abro en casa",
-        "scores": [{ "nature": "Dócil", "points": 2 }]
+        "scores": [{ "nature": "Dócil", "points": 2 }],
+        "id": 0
       },
       {
         "response": "¿La agito!",
-        "scores": [{ "nature": "Ingenua", "points": 2 }]
+        "scores": [{ "nature": "Ingenua", "points": 2 }],
+        "id": 1
       },
       {
         "response": "¿La abro enseguida!",
-        "scores": [{ "nature": "Alocada", "points": 2 }]
+        "scores": [{ "nature": "Alocada", "points": 2 }],
+        "id": 2
       },
       {
         "response": "Es más pequeña que las otras...",
-        "scores": [{ "nature": "Huraña", "points": 2 }]
+        "scores": [{ "nature": "Huraña", "points": 2 }],
+        "id": 3
       }
     ]
   },
@@ -979,17 +1138,30 @@
           { "nature": "Activa", "points": 1 },
           { "nature": "Rara", "points": 2 },
           { "nature": "Alocada", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Mansa", "points": 1 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Mansa", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
     "id": 49,
     "title": "¿Eres de las personas que no cambian de opinión una vez que han decidido algo?",
     "responses": [
-      { "response": "Sí", "scores": [{ "nature": "Fuerte", "points": 2 }] },
-      { "response": "No", "scores": [{ "nature": "Rara", "points": 2 }] }
+      {
+        "response": "Sí",
+        "scores": [{ "nature": "Fuerte", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No",
+        "scores": [{ "nature": "Rara", "points": 2 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -1001,9 +1173,14 @@
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Plácida", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Serena", "points": 1 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Serena", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -1012,18 +1189,21 @@
     "responses": [
       {
         "response": "¿Por supuesto!",
-        "scores": [{ "nature": "Fuerte", "points": 2 }]
+        "scores": [{ "nature": "Fuerte", "points": 2 }],
+        "id": 0
       },
       {
         "response": "¿Qué va!",
         "scores": [
           { "nature": "Rara", "points": 2 },
           { "nature": "Alocada", "points": 1 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "¿Eso qué es?",
-        "scores": [{ "nature": "Plácida", "points": 2 }]
+        "scores": [{ "nature": "Plácida", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -1036,10 +1216,19 @@
         "scores": [
           { "nature": "Audaz", "points": 2 },
           { "nature": "Mansa", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Osada", "points": 2 }] },
-      { "response": "No sé", "scores": [{ "nature": "Dócil", "points": 2 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Osada", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "No sé",
+        "scores": [{ "nature": "Dócil", "points": 2 }],
+        "id": 2
+      }
     ]
   },
   {
@@ -1051,15 +1240,18 @@
         "scores": [
           { "nature": "Alegre", "points": 1 },
           { "nature": "Ingenua", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "¿No me lo puedo creer!",
-        "scores": [{ "nature": "Miedosa", "points": 1 }]
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 1
       },
       {
         "response": "¿No se lo diré a nadie!",
-        "scores": [{ "nature": "Mansa", "points": 2 }]
+        "scores": [{ "nature": "Mansa", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -1072,11 +1264,13 @@
         "scores": [
           { "nature": "Mansa", "points": 2 },
           { "nature": "Grosera", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "En absoluto",
-        "scores": [{ "nature": "Osada", "points": 2 }]
+        "scores": [{ "nature": "Osada", "points": 2 }],
+        "id": 1
       }
     ]
   },
@@ -1086,15 +1280,18 @@
     "responses": [
       {
         "response": "Igual está enfermo",
-        "scores": [{ "nature": "Activa", "points": 2 }]
+        "scores": [{ "nature": "Activa", "points": 2 }],
+        "id": 0
       },
       {
         "response": "Estará preocupado por algo",
-        "scores": [{ "nature": "Mansa", "points": 2 }]
+        "scores": [{ "nature": "Mansa", "points": 2 }],
+        "id": 1
       },
       {
         "response": "¿Será culpa mía?",
-        "scores": [{ "nature": "Miedosa", "points": 1 }]
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 2
       }
     ]
   },
@@ -1104,15 +1301,18 @@
     "responses": [
       {
         "response": "¿Uf! ¿Qué vergüenza!",
-        "scores": [{ "nature": "Dócil", "points": 2 }]
+        "scores": [{ "nature": "Dócil", "points": 2 }],
+        "id": 0
       },
       {
         "response": "¿¿Otra vez?!",
-        "scores": [{ "nature": "Alocada", "points": 2 }]
+        "scores": [{ "nature": "Alocada", "points": 2 }],
+        "id": 1
       },
       {
         "response": "Digo que voy a la última moda",
-        "scores": [{ "nature": "Alegre", "points": 2 }]
+        "scores": [{ "nature": "Alegre", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -1122,18 +1322,21 @@
     "responses": [
       {
         "response": "¿Me marcho a todo gas!",
-        "scores": [{ "nature": "Miedosa", "points": 1 }]
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 0
       },
       {
         "response": "Busco una excusa",
         "scores": [
           { "nature": "Ingenua", "points": 2 },
           { "nature": "Grosera", "points": 1 }
-        ]
+        ],
+        "id": 1
       },
       {
         "response": "Me agacho para que no me vean",
-        "scores": [{ "nature": "Alocada", "points": 2 }]
+        "scores": [{ "nature": "Alocada", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -1141,8 +1344,16 @@
     "id": 58,
     "title": "¿Has llamado alguna vez por error \"mamá\" o \"papá\" a alguno de tus profesores?",
     "responses": [
-      { "response": "Sí", "scores": [{ "nature": "Alocada", "points": 2 }] },
-      { "response": "No", "scores": [{ "nature": "Mansa", "points": 2 }] }
+      {
+        "response": "Sí",
+        "scores": [{ "nature": "Alocada", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No",
+        "scores": [{ "nature": "Mansa", "points": 2 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -1154,9 +1365,14 @@
         "scores": [
           { "nature": "Huraña", "points": 2 },
           { "nature": "Plácida", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
-      { "response": "No", "scores": [{ "nature": "Fuerte", "points": 1 }] }
+      {
+        "response": "No",
+        "scores": [{ "nature": "Fuerte", "points": 1 }],
+        "id": 1
+      }
     ]
   },
   {
@@ -1168,15 +1384,18 @@
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Audaz", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Me escaqueo",
-        "scores": [{ "nature": "Activa", "points": 1 }]
+        "scores": [{ "nature": "Activa", "points": 1 }],
+        "id": 1
       },
       {
         "response": "Espero hasta que acabe la clase",
-        "scores": [{ "nature": "Miedosa", "points": 1 }]
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 2
       }
     ]
   },
@@ -1184,12 +1403,21 @@
     "id": 61,
     "title": "Un amigo te quiere invitar a cenar. ¿Qué haces?",
     "responses": [
-      { "response": "¿Vale!", "scores": [{ "nature": "Audaz", "points": 2 }] },
+      {
+        "response": "¿Vale!",
+        "scores": [{ "nature": "Audaz", "points": 2 }],
+        "id": 0
+      },
       {
         "response": "¿Yo invito!",
-        "scores": [{ "nature": "Alegre", "points": 2 }]
+        "scores": [{ "nature": "Alegre", "points": 2 }],
+        "id": 1
       },
-      { "response": "¿Gracias!", "scores": [{ "nature": "Rara", "points": 2 }] }
+      {
+        "response": "¿Gracias!",
+        "scores": [{ "nature": "Rara", "points": 2 }],
+        "id": 2
+      }
     ]
   },
   {
@@ -1201,15 +1429,18 @@
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Plácida", "points": 1 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Me lo pienso y luego decido",
-        "scores": [{ "nature": "Miedosa", "points": 1 }]
+        "scores": [{ "nature": "Miedosa", "points": 1 }],
+        "id": 1
       },
       {
         "response": "Que lo pruebe alguien primero",
-        "scores": [{ "nature": "Audaz", "points": 2 }]
+        "scores": [{ "nature": "Audaz", "points": 2 }],
+        "id": 2
       }
     ]
   },
@@ -1222,15 +1453,18 @@
         "scores": [
           { "nature": "Agitada", "points": 2 },
           { "nature": "Ingenua", "points": 2 }
-        ]
+        ],
+        "id": 0
       },
       {
         "response": "Algo de pescado",
-        "scores": [{ "nature": "Fuerte", "points": 1 }]
+        "scores": [{ "nature": "Fuerte", "points": 1 }],
+        "id": 1
       },
       {
         "response": "¿Lo que sea estará rico!",
-        "scores": [{ "nature": "Audaz", "points": 2 }]
+        "scores": [{ "nature": "Audaz", "points": 2 }],
+        "id": 2
       }
     ]
   }

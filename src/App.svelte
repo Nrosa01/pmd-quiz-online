@@ -2,6 +2,19 @@
   import DebugNature from "./lib/DebugNature.svelte";
   import QuestionSystem from "./lib/QuestionSystem.svelte";
 
+  import data from "./assets/dataEs.json";
+
+  // Add id field to responses, id must be the first field
+  data.forEach((question) => {
+    question.responses.forEach((response, index) => {
+      response.id = index;
+    });
+  });
+  
+
+  // Copy to clipboard
+  navigator.clipboard.writeText(JSON.stringify(data));
+
   let fadeInOnScroll = "motion-safe:animate-fadeIn";
 </script>
 

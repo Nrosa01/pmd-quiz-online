@@ -1,9 +1,23 @@
+<svelte:options accessors="{true}" />
+
 <script>
+  import { onMount } from "svelte";
   import { store } from "../assets/store.js";
 
   export let answer;
-  let clicked = false;
-  $: classes = `${clicked ? "scale-[1.5]" : "scale-100"}`;
+  export let responses;
+
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
+
+  export let clicked = false;
+  $: classes = `transition duration-200 ease-in-out ${
+    clicked ? "scale-110" : "scale-100"
+  }`;
+
+  export const click = () => {
+    onClick();
+  };
 
   function onClick() {
     // Update stores
@@ -13,10 +27,16 @@
 
       let sign = clicked ? -1 : 1;
       $store.points[nature] += sign * points;
-    });
 
+    });
+    
     // Toggle clicked
     clicked = !clicked;
+
+    dispatch("message", {
+      text: "Hello!",
+      id: answer.id,
+    });
   }
 </script>
 
