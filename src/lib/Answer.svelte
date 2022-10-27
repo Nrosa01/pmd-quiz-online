@@ -5,7 +5,6 @@
   import { createEventDispatcher } from "svelte";
 
   export let answer;
-  export const responses = {};
 
   const dispatch = createEventDispatcher();
 

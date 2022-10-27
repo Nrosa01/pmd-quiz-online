@@ -3,6 +3,7 @@
   import data from "../assets/dataEs.json";
   import Question from "./Question.svelte";
   import { store } from "../assets/store.js";
+  import RadialChart from "./RadialChart.svelte";
 
   let numberOfQuestions = $store.numQuestions;
 
@@ -44,10 +45,10 @@
   dots="{false}"
   arrows="{false}"
   swiping="{false}">
-
   <div class="flex flex-col-reverse justify-start md:flex-col md:justify-end">
-    
-    
+    <div class="flex flex-col justify-center items-center md:items-start">
+      <RadialChart />
+    </div>
     <div
       class="text-box min-w-screen my-2 dynamicMargin dynamicText cursor-default">
       <h1 class="text-white select-none">Esto es una prueba</h1>

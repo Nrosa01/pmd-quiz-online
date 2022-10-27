@@ -66,7 +66,6 @@
     bind:this="{answerComponents[answer.id]}"
     on:message="{handleMessage}"
     on:event="{handleEvent}"
-    responses="{questionData.responses}"
     answer="{answer}" />
     {/each}
   </div>

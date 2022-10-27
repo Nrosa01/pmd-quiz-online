@@ -18,5 +18,8 @@
     "svelte-preprocess": "^4.10.7",
     "tailwindcss": "^3.1.5",
     "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "chart.js": "^3.9.1"
   }
 }
