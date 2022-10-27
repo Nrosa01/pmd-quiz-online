@@ -2,8 +2,6 @@
   import DebugNature from "./lib/DebugNature.svelte";
   import QuestionSystem from "./lib/QuestionSystem.svelte";
 
-  import data from "./assets/dataEs.json";
-
   let fadeInOnScroll = "motion-safe:animate-fadeIn";
 </script>
 

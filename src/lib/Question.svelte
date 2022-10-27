@@ -60,17 +60,19 @@
 </script>
 
 <div class="flex flex-col-reverse justify-start md:flex-col md:justify-end">
-  {#each questionData.responses as answer (answer.id)}
+  <div class="flex flex-col justify-center items-center md:items-end">  
+    {#each questionData.responses as answer (answer.id)}
     <Answer
-      bind:this="{answerComponents[answer.id]}"
-      on:message="{handleMessage}"
-      on:event="{handleEvent}"
-      responses="{questionData.responses}"
-      answer="{answer}" />
-  {/each}
+    bind:this="{answerComponents[answer.id]}"
+    on:message="{handleMessage}"
+    on:event="{handleEvent}"
+    responses="{questionData.responses}"
+    answer="{answer}" />
+    {/each}
+  </div>
 
   <div
-    class="text-box min-w-screen mt-2 mb-1 dynamicMargin dynamicText cursor-default">
+    class="text-box min-w-screen my-2 dynamicMargin dynamicText cursor-default">
     <h1 class="text-white select-none">{questionData.title}</h1>
   </div>
 </div>

@@ -56,7 +56,7 @@
     on:click="{onClick}"
     on:mouseenter="{sendMessage}"
     on:mouseleave="{sendMessage}"
-    class="relative text-box dynamicWidth float-right {classes}">
+    class="relative text-box dynamicWidth {classes}">
     <h1 class="text-white select-none">{answer.response}</h1>
   </button>
 </div>
