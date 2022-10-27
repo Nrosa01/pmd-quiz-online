@@ -28,6 +28,6 @@
   <Answer bind:this={answerComponents[answer.id]} on:message={handleMessage} responses={questionData.responses} answer="{answer}" />
 {/each}
 
-<div class="text-box min-w-screen my-2 dynamicMargin dynamicText">
-  <h1 class="text-white">{questionData.title}</h1>
+<div class="text-box min-w-screen my-2 dynamicMargin dynamicText cursor-default">
+  <h1 class="text-white select-none">{questionData.title}</h1>
 </div>

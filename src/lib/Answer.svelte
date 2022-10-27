@@ -34,7 +34,6 @@
     clicked = !clicked;
 
     dispatch("message", {
-      text: "Hello!",
       id: answer.id,
     });
   }
