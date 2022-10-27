@@ -1,6 +1,9 @@
 <script>
   import DebugNature from "./lib/DebugNature.svelte";
   import QuestionSystem from "./lib/QuestionSystem.svelte";
+  import { store } from "./assets/store.js";
+
+  $store.numQuestions = 3;
 
   let fadeInOnScroll = "motion-safe:animate-fadeIn";
 </script>

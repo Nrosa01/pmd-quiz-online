@@ -2,21 +2,59 @@
   import Carousel from "svelte-carousel";
   import data from "../assets/dataEs.json";
   import Question from "./Question.svelte";
+  import { store } from "../assets/store.js";
+
+  let numberOfQuestions = $store.numQuestions;
+
+  let questions = [];
+
+  if (numberOfQuestions > 0) {
+    questions = getRandomNumOfQuestions(numberOfQuestions);
+  } else {
+    numberOfQuestions = data.length;
+    questions = data;
+  }
 
   let carousel = null;
 
   function onCorrectQuestion(event) {
     carousel.goToNext();
   }
+
+  function getRandomNumOfQuestions(numberOfQuestions) {
+    let questions = [];
+
+    while (questions.length < numberOfQuestions) {
+      let randomIndex = Math.floor(Math.random() * data.length);
+      let randomQuestion = data[randomIndex];
+
+      if (!questions.includes(randomQuestion)) {
+        questions.push(randomQuestion);
+      }
+    }
+
+    return questions;
+  }
+  let test = 0;
 </script>
 
 <Carousel
   bind:this="{carousel}"
-  dots={false}
-  arrows={false}
-  swiping={false}
-  >
-  {#each data as question (question.id)}
+  infinite="{false}"
+  dots="{false}"
+  arrows="{false}"
+  swiping="{false}">
+
+  <div class="flex flex-col-reverse justify-start md:flex-col md:justify-end">
+    
+    
+    <div
+      class="text-box min-w-screen my-2 dynamicMargin dynamicText cursor-default">
+      <h1 class="text-white select-none">Esto es una prueba</h1>
+    </div>
+  </div>
+
+  {#each questions as question (question.id)}
     <Question
       on:correctQuestion="{onCorrectQuestion}"
       questionData="{data[question.id]}" />
