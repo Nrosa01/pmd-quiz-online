@@ -14,9 +14,12 @@
   $: classes = `transition duration-200 ease-in-out ${clicked ? "scale-110" : "scale-100"}
                 ${disabled ? "brightness-50" : "brightness-100"}`; 
 
-  export const click = onClick;
+  export const click = () =>
+  {
+    onClick(false);
+  };
 
-  function onClick() {
+  function onClick(sendMessage = true) {
     // Update stores
     answer.scores.forEach((score) => {
       let nature = score.nature;
@@ -28,6 +31,8 @@
 
     // Toggle clicked
     clicked = !clicked;
+
+    if(!sendMessage) return;
 
     dispatch("message", {
       id: answer.id,

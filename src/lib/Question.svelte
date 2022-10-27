@@ -21,10 +21,16 @@
     if (clickedButton.clicked) {
       for (let i = 0; i < answerComponents.length; i++) {
         if (answerComponents[i].clicked && i != id) answerComponents[i].click();
-        if (i != id) answerComponents[i].disabled = true;
+        answerComponents[i].disabled = (i != id);
       }
 
       dispatch("correctQuestion");
+    }
+    else
+    {
+      answerComponents.forEach((answer) => {
+        answer.disabled = false;
+      });
     }
   }
 
@@ -53,7 +59,7 @@
   }
 </script>
 
-<div class="flex flex-col justify-end">
+<div class="flex flex-col-reverse justify-start md:flex-col md:justify-end">
   {#each questionData.responses as answer (answer.id)}
     <Answer
       bind:this="{answerComponents[answer.id]}"

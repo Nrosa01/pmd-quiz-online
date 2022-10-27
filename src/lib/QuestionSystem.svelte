@@ -7,7 +7,7 @@
 
   function onCorrectQuestion(event)
   {
-    carousel.goToNext();
+    //carousel.goToNext();
   }
 </script>
 
