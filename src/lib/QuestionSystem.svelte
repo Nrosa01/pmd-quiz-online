@@ -5,6 +5,6 @@
   let currentQuestion = 0;
 </script>
 
-<!-- {#each questions as question (question.id)} -->
-<Question questionData={data[currentQuestion]} />
+<!-- {#each data as question (question.id)} -->
+<Question questionData="{data[0]}" />
 <!-- {/each} -->

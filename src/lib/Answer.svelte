@@ -1,11 +1,10 @@
 <svelte:options accessors="{true}" />
 
 <script>
-  import { onMount } from "svelte";
   import { store } from "../assets/store.js";
 
   export let answer;
-  export let responses;
+  export const responses = {};
 
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
@@ -15,9 +14,7 @@
     clicked ? "scale-110" : "scale-100"
   }`;
 
-  export const click = () => {
-    onClick();
-  };
+  export const click = onClick;
 
   function onClick() {
     // Update stores
@@ -39,7 +36,7 @@
   }
 </script>
 
-<div class="h-fit wmin-w-screen dynamicMargin dynamicText my-1 ">
+<div class="h-fit wmin-w-screen dynamicMargin dynamicText transitiona-all duration-200 {clicked ? "my-2" : "my-1"}">
   <button
     on:click="{onClick}"
     class="relative text-box dynamicWidth float-right {classes}">

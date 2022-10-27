@@ -1,5 +1,4 @@
 <script>
-    import { onMount } from "svelte";
   import Answer from "./Answer.svelte";
 
   export let questionData = {};
