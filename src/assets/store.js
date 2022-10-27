@@ -1,5 +1,6 @@
 import { writable } from 'svelte/store';
 import natures from './natures.json';
+import { getMaxPoints } from './utils.js';
 
 const point = natures.reduce((acc, cur) => {
     acc[cur] = 0;
@@ -8,4 +9,5 @@ const point = natures.reduce((acc, cur) => {
 
 export let store = writable({
     points: point,
+    maxPoints: getMaxPoints(point),
 });

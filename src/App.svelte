@@ -3,7 +3,7 @@
   import QuestionSystem from "./lib/QuestionSystem.svelte";
   import { store } from "./assets/store.js";
 
-  $store.numQuestions = 3;
+  $store.numQuestions = 10;
 
   let fadeInOnScroll = "motion-safe:animate-fadeIn";
 </script>
