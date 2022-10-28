@@ -3,6 +3,8 @@ import dataEs from './dataEs.json';
 import dataEn from './dataEn.json';
 import naturesEs from './naturesEs.json';
 import naturesEn from './naturesEn.json';
+import natureToPokemonEn from './natureToPokemonEn.json';
+import natureToPokemonEs from './natureToPokemonEs.json';
 
 export function getQuestionData() {
     if (getLanguage() == 'es')
@@ -11,11 +13,33 @@ export function getQuestionData() {
         return dataEn;
 }
 
+export function isMobileDevice() {
+    let isMobile = (typeof window.orientation !== "undefined") || 
+    (navigator.userAgent.indexOf('IEMobile') !== -1) || 
+    (navigator.userAgent.indexOf('Android') !== -1) ||
+    (navigator.userAgent.toLowerCase().match(/mobile/i));
+    return isMobile !== null;
+}
+
+
+export function isTouchEnabled() {
+    return ( 'ontouchstart' in window ) ||
+           ( navigator.maxTouchPoints > 0 ) ||
+           ( navigator.msMaxTouchPoints > 0 );
+}
+
 export function getNatures() {
    if (getLanguage() == 'es')
         return naturesEs;
     else
         return naturesEn;
+}
+
+export function getNatureToPokemon() {
+    if (getLanguage() == 'es')
+        return natureToPokemonEs;
+    else
+        return natureToPokemonEn;
 }
 
 export function getLanguage() {
