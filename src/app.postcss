@@ -66,28 +66,54 @@
       border-image: url(pmdtextbox.png) 43 round;
     }
 
-    .infinite-scroll-right
+    :root
     {
-      animation : infinite-scroll-right 480s infinite;
+      --time: 360s;
+      --hueTime: 10s;
     }
 
+    .infinite-scroll-right
+    {
+      background-image: url(dreamBackLoop.png);
+      animation : infinite-scroll-right var(--time) infinite, hue-Shif-tRight var(--hueTime) infinite;
+      animation-timing-function: linear;
+      background-repeat: repeat-x;
+      background-size: contain;
+    }
+    
     .infinite-scroll-left
     {
-      animation : infinite-scroll-left 480s infinite;
+      background-image: url(dreamFrontLoop.png);
+      animation : infinite-scroll-left var(--time) infinite, hue-Shif-tRight  var(--hueTime) infinite;
+      animation-timing-function: linear;
+      background-repeat: repeat-x;
+      background-size: contain;
     }
 
     @keyframes infinite-scroll-right {
       0% {
-        background-position: 0 0;
+        background-position: 0% 0;
       }
       100% {
-        background-position: 200% 0;
+        background-position: 100% 0;
       }
+    }
+
+    @keyframes hue-Shif-tRight
+    {
+      0% {filter: hue-rotate(0deg);}
+      100% {filter: hue-rotate(360deg);}
+    }
+
+    @keyframes hue-Shif-tLeft
+    {
+      0% {filter: hue-rotate(0deg);}
+      100% {filter: hue-rotate(-360deg);}
     }
 
     @keyframes infinite-scroll-left {
       0% {
-        background-position: 200% 0;
+        background-position: 100% 0;
       }
       100% {
         background-position: 0 0;
