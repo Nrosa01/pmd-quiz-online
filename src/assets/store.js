@@ -19,6 +19,14 @@ export const radialChartConfig = {
         display: true,
         text: 'Naturalezas',
         color: 'rgba(245, 245, 245, 1)',
+        font: 
+        {
+            size: 20,
+        },
+        padding: {
+            top: 0,
+            bottom: 10,
+        },
       },
       legend:
       {
@@ -42,16 +50,24 @@ export const radialChartConfig = {
       r: {
         angleLines: {
           display: true,
-          color: 'rgba(245, 245, 245, 0.5)',
+          color: 'rgba(245, 245, 245, 0.25)',
         },
         grid: 
         {
             lineWidth: 1.2,
-            color: 'rgba(245, 245, 245, 0.75)',
+            color: 'rgba(245, 245, 245, 0.5)',
         },
         ticks:{
             display: false,
             maxTickLimit: 1,
+        },
+        pointLabels:
+        {
+            color: 'rgba(245, 245, 245, 0.9)',
+            font:
+            {
+                size: 11,
+            }
         }
       },
     },
@@ -62,9 +78,9 @@ export const radialChartConfig = {
         },
         point:{
             radius: 0,
-            pointBackgroundColor: 'rgba(255, 0, 0, 1)',
-            pointBorderWidth: 1,
-            pointBorderColor: 'rgba(0, 0, 0, 0.1)',
+            pointBackgroundColor: 'rgba(255, 0, 0, 0)',
+            pointBorderWidth: 0,
+            pointBorderColor: 'rgba(0, 0, 0, 0)',
             color: 'rgba(0, 0, 0, 0)',
         }
     }
