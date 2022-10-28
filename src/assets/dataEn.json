@@ -1,0 +1,1447 @@
+[
+  {
+    "id": 0,
+    "title": "Have you ever blurted something out without thinking about the consequences first?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Lonely", "points": 2 },
+          { "nature": "Relaxed", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Hardy", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Do you want to be taller someday?",
+    "responses": [
+      {
+        "response": "Totally!",
+        "scores": [{ "nature": "Sassy", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Of course not.",
+        "scores": [{ "nature": "Calm", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Once you've decided something, do you see it through to the end?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Have you ever said \"nice to meet you\" to someone you've met previously?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Relaxed", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Calm", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Have you ever looked at your reflection in a mirror and thought, \"What a cool person\"?",
+    "responses": [
+      {
+        "response": "Certainly!",
+        "scores": [
+          { "nature": "Jolly", "points": 1 },
+          { "nature": "Naive", "points": 1 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Well, not really...",
+        "scores": [{ "nature": "Hardy", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Have you ever thought that if you dug in your backyard you could find buried treasure?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [{ "nature": "Naive", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Do you prefer to play outside rather than inside?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Bold", "points": 1 },
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Relaxed", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Calm", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "You discover a beat-up-looking treasure chest in some ruins. What do you do?",
+    "responses": [
+      {
+        "response": "Open it!",
+        "scores": [
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Hasty", "points": 2 },
+          { "nature": "Impish", "points": 2 },
+          { "nature": "Rash", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Get help opening it.",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Have you ever realized you were hogging the conversation?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Rash", "points": 2 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [
+          { "nature": "Docile", "points": 1 },
+          { "nature": "Quiet", "points": 1 }
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "When you see a switch, do you feel an overwhelming urge to flip it?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [{ "nature": "Hasty", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Calm", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Have you ever forgotten you bought something and bought another one?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Hasty", "points": 1 },
+          { "nature": "Quirky", "points": 2 },
+          { "nature": "Rash", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Do you think it's important to always aim to be the best?",
+    "responses": [
+      {
+        "response": "Of course!",
+        "scores": [
+          { "nature": "Lonely", "points": 1 },
+          { "nature": "Sassy", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [
+          { "nature": "Calm", "points": 2 },
+          { "nature": "Quirky", "points": 1 }
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Do you want to be famous?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Lonely", "points": 2 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Relaxed", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "If you saw someone doing something bad, could you scold them?",
+    "responses": [
+      {
+        "response": "Of course!",
+        "scores": [
+          { "nature": "Bold", "points": 1 },
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Not really.",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Have you ever told a joke that just completely fell flat?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Impish", "points": 1 },
+          { "nature": "Naive", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Calm", "points": 2 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Do you like lively parties?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Lonely", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Are you truly sincere when you apologize?",
+    "responses": [
+      {
+        "response": "Of course.",
+        "scores": [
+          { "nature": "Bold", "points": 1 },
+          { "nature": "Docile", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "That's not easy to admit!",
+        "scores": [
+          { "nature": "Lonely", "points": 1 },
+          { "nature": "Timid", "points": 2 }
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Do you like karaoke?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [
+          { "nature": "Hasty", "points": 1 },
+          { "nature": "Timid", "points": 1 }
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "You're hiking up a mountain when you reach diverging paths. Which kind do you take?",
+    "responses": [
+      {
+        "response": "Narrow.",
+        "scores": [
+          { "nature": "Impish", "points": 2 },
+          { "nature": "Naive", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Wide.",
+        "scores": [
+          { "nature": "Quirky", "points": 2 },
+          { "nature": "Timid", "points": 1 }
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Your friend takes a spectacular fall! What do you do?",
+    "responses": [
+      {
+        "response": "Help my friend up!",
+        "scores": [
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Lonely", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Laugh! It's too funny!",
+        "scores": [
+          { "nature": "Impish", "points": 2 },
+          { "nature": "Naive", "points": 2 },
+          { "nature": "Rash", "points": 1 }
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Have you ever accidentally called a teacher \"Mom\" or \"Dad\"?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [{ "nature": "Rash", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Quiet", "points": 2 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "There's a rumor around about a ghost haunting the school bathrooms! What do you do?",
+    "responses": [
+      {
+        "response": "Scary... bathrooms!",
+        "scores": [
+          { "nature": "Docile", "points": 2 },
+          { "nature": "Timid", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Go in there anyway.",
+        "scores": [
+          { "nature": "Bold", "points": 1 },
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Relaxed", "points": 1 }
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Your friend is running a little late to meet you. Is that OK?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Bold", "points": 2 },
+          { "nature": "Relaxed", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Not at all!",
+        "scores": [
+          { "nature": "Hasty", "points": 1 },
+          { "nature": "Lonely", "points": 2 }
+        ],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Do you think that, no matter what, life goes on?",
+    "responses": [
+      {
+        "response": "All the time!",
+        "scores": [
+          { "nature": "Jolly", "points": 1 },
+          { "nature": "Relaxed", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Never.",
+        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Do you think blaming something you did on someone else is sometimes necessary?",
+    "responses": [
+      {
+        "response": "Of course!",
+        "scores": [
+          { "nature": "Quiet", "points": 2 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No way!",
+        "scores": [{ "nature": "Brave", "points": 2 }],
+        "id": 1
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "You're at a movie theater. What are you there to see?",
+    "responses": [
+      {
+        "response": "An action movie.",
+        "scores": [
+          { "nature": "Impish", "points": 2 },
+          { "nature": "Sassy", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "A drama.",
+        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "A romantic movie.",
+        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "You have a really important test tomorrow! What do you do?",
+    "responses": [
+      {
+        "response": "Study all night long.",
+        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Wing it! I'm sure it will be fine!",
+        "scores": [{ "nature": "Relaxed", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "Test?! I think I have a fever...",
+        "scores": [{ "nature": "Naive", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "You're in class when you realize that you really have to go to the restroom! What do you do?",
+    "responses": [
+      {
+        "response": "Ask for permission to leave.",
+        "scores": [
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Bold", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Sneak out.",
+        "scores": [{ "nature": "Hasty", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "Hold on until class ends!",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Do you think you have good study habits?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [{ "nature": "Docile", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [
+          { "nature": "Naive", "points": 2 },
+          { "nature": "Rash", "points": 1 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "Well, I never lose at sports!",
+        "scores": [{ "nature": "Impish", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "You see a cake that is past its expiration date, but only by one day. What do you do?",
+    "responses": [
+      {
+        "response": "Not a problem! Chow time!.",
+        "scores": [
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Relaxed", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Think about it briefly, then decide.",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "Get someone to try it first.",
+        "scores": [{ "nature": "Bold", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "You've just stuffed yourself with a good meal when a great dessert arrives. What do you do?",
+    "responses": [
+      {
+        "response": "Eat it. Who cares if I'm stuffed?",
+        "scores": [
+          { "nature": "Hasty", "points": 2 },
+          { "nature": "Rash", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Turn it down. It's too fattening!",
+        "scores": [{ "nature": "Hardy", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "Yum! I love dessert the most!",
+        "scores": [
+          { "nature": "Bold", "points": 2 },
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Relaxed", "points": 1 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Your friend has made a meal that tastes terrible. They ask, \"How is it?\" You say...?",
+    "responses": [
+      {
+        "response": "\"Terrible!\"",
+        "scores": [
+          { "nature": "Brave", "points": 1 },
+          { "nature": "Quiet", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Just smile.",
+        "scores": [
+          { "nature": "Calm", "points": 2 },
+          { "nature": "Lonely", "points": 1 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "\"Um, it's...good.\"",
+        "scores": [
+          { "nature": "Rash", "points": 1 },
+          { "nature": "Timid", "points": 1 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "You're eating at a very fancy restaurant known for its food. Which course do you select?",
+    "responses": [
+      {
+        "response": "Seared steak.",
+        "scores": [
+          { "nature": "Impish", "points": 2 },
+          { "nature": "Naive", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Healthy fish.",
+        "scores": [{ "nature": "Hardy", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "Anything! It's all good!",
+        "scores": [{ "nature": "Bold", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Everyone's sharing a dessert, and there's an extra piece. What do you do?",
+    "responses": [
+      {
+        "response": "Don't tell anyone.",
+        "scores": [
+          { "nature": "Bold", "points": 2 },
+          { "nature": "Timid", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Let everyone know.",
+        "scores": [
+          { "nature": "Docile", "points": 2 },
+          { "nature": "Rash", "points": 2 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "First come, first served!",
+        "scores": [{ "nature": "Impish", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Your friend offers to treat you to dinner. What do you do?",
+    "responses": [
+      {
+        "response": "I'm there!",
+        "scores": [{ "nature": "Bold", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Allow me.",
+        "scores": [{ "nature": "Jolly", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "Thanks...",
+        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Everyone around you is laughing hard at something you think is pretty boring. What do you do?",
+    "responses": [
+      {
+        "response": "Nothing, really.",
+        "scores": [
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Bold", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Laugh along.",
+        "scores": [
+          { "nature": "Lonely", "points": 1 },
+          { "nature": "Timid", "points": 2 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "It depends on the situation.",
+        "scores": [
+          { "nature": "Quiet", "points": 1 },
+          { "nature": "Quirky", "points": 1 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Do you prefer to be busy or to have a lot of free time?",
+    "responses": [
+      {
+        "response": "Being busy.",
+        "scores": [
+          { "nature": "Lonely", "points": 2 },
+          { "nature": "Sassy", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Free time!",
+        "scores": [{ "nature": "Calm", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "In between.",
+        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "You're about to buy a popular game when someone else gets the last copy! How do you feel?",
+    "responses": [
+      {
+        "response": "Whatever.",
+        "scores": [{ "nature": "Calm", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Annoyed. I was here first!",
+        "scores": [
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Relaxed", "points": 2 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "I shed a few tears.",
+        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "You run into a new person that you haven't talked to very much before. What do you do?",
+    "responses": [
+      {
+        "response": "Make small talk.",
+        "scores": [{ "nature": "Calm", "points": 1 }],
+        "id": 0
+      },
+      {
+        "response": "Say nothing!",
+        "scores": [{ "nature": "Quirky", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "Make an excuse to get away!",
+        "scores": [{ "nature": "Timid", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "You take off your shoes to realize your socks are two different colors! What do you do?",
+    "responses": [
+      {
+        "response": "Get embarrassed!",
+        "scores": [{ "nature": "Docile", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Again?!",
+        "scores": [{ "nature": "Rash", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "I meant to do that!",
+        "scores": [{ "nature": "Jolly", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Good news and bad news... Which one do you want to hear first?",
+    "responses": [
+      {
+        "response": "The good news.",
+        "scores": [{ "nature": "Relaxed", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "The bad news.",
+        "scores": [
+          { "nature": "Bold", "points": 1 },
+          { "nature": "Naive", "points": 2 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "I don't want either.",
+        "scores": [{ "nature": "Timid", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Did you make any New Year's resolutions?",
+    "responses": [
+      {
+        "response": "Of course!",
+        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Nope.",
+        "scores": [
+          { "nature": "Quirky", "points": 2 },
+          { "nature": "Rash", "points": 1 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "What are those?",
+        "scores": [{ "nature": "Relaxed", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "You're in a completely silent assembly when you suddenly hear someone pass gas! How do you react?",
+    "responses": [
+      {
+        "response": "Roll on the floor laughing!",
+        "scores": [
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Naive", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Just let it go by...",
+        "scores": [
+          { "nature": "Docile", "points": 1 },
+          { "nature": "Impish", "points": 1 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "Who was that?!",
+        "scores": [{ "nature": "Brave", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "You're running a marathon, and at the start you fall flat on your face! What will you do?",
+    "responses": [
+      {
+        "response": "I'm not giving up yet!",
+        "scores": [
+          { "nature": "Brave", "points": 1 },
+          { "nature": "Hardy", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Just give up.",
+        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "Shout, \"START OVER!\"",
+        "scores": [
+          { "nature": "Bold", "points": 2 },
+          { "nature": "Rash", "points": 1 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "You find something at a great bargain price! What do you do?",
+    "responses": [
+      {
+        "response": "Buy it right away!",
+        "scores": [{ "nature": "Hasty", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Think about whether you need it.",
+        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "Demand an even bigger discount!",
+        "scores": [{ "nature": "Bold", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "You've been asked to do a difficult task. What will you do?",
+    "responses": [
+      {
+        "response": "Do it myself.",
+        "scores": [
+          { "nature": "Brave", "points": 1 },
+          { "nature": "Hardy", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Ask someone to help.",
+        "scores": [{ "nature": "Docile", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "Make someone else do it!",
+        "scores": [
+          { "nature": "Bold", "points": 2 },
+          { "nature": "Sassy", "points": 1 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "You notice that a toy you bought for full price yesterday is marked down to half price today! How do you feel?",
+    "responses": [
+      {
+        "response": "Heartbroken...",
+        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Aaaargh!",
+        "scores": [{ "nature": "Docile", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "Bad timing, I guess...",
+        "scores": [
+          { "nature": "Bold", "points": 2 },
+          { "nature": "Calm", "points": 2 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "The phone's ringing! What do you do?",
+    "responses": [
+      {
+        "response": "Answer right away!",
+        "scores": [
+          { "nature": "Hasty", "points": 2 },
+          { "nature": "Lonely", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Wait a bit before answering.",
+        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "Ignore it and let it ring.",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Your friends seem to be making plans to hang out, just out of earshot. You think...",
+    "responses": [
+      {
+        "response": "I want to go too!",
+        "scores": [{ "nature": "Naive", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "No big deal.",
+        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "Will they invite me?",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Do you think it's important to be fashionably late?",
+    "responses": [
+      {
+        "response": "Yes.",
+        "scores": [
+          { "nature": "Bold", "points": 2 },
+          { "nature": "Quiet", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "No.",
+        "scores": [{ "nature": "Brave", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "I don't know.",
+        "scores": [{ "nature": "Docile", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "You've won big on a raffle ticket! You say...",
+    "responses": [
+      {
+        "response": "Woo-hoo!",
+        "scores": [
+          { "nature": "Jolly", "points": 1 },
+          { "nature": "Naive", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "I can't believe it...",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "This is my little secret.",
+        "scores": [{ "nature": "Quiet", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Your friend suddenly won't listen to you, when everything was fine yesterday. What happened?",
+    "responses": [
+      {
+        "response": "Maybe they're sick.",
+        "scores": [{ "nature": "Hasty", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "They're lost in thought.",
+        "scores": [{ "nature": "Quiet", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "What?! Why?!",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "You fail miserably! Everyone found out, and they're disappointed in you... What do you do?",
+    "responses": [
+      {
+        "response": "Try and hide.",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 0
+      },
+      {
+        "response": "Think of an excuse.",
+        "scores": [
+          { "nature": "Naive", "points": 2 },
+          { "nature": "Sassy", "points": 1 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "Drop down and play dead!",
+        "scores": [{ "nature": "Rash", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "You're on a stroll when a TV crew pounces on you for an interview. What do you do?",
+    "responses": [
+      {
+        "response": "Run away! How embarrassing!",
+        "scores": [{ "nature": "Timid", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Answer questions properly.",
+        "scores": [
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "Yuck it up! Woo-hoo! I'm on TV.",
+        "scores": [
+          { "nature": "Bold", "points": 1 },
+          { "nature": "Naive", "points": 2 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "The people at the next table are singing for someone's birthday. What do you do?",
+    "responses": [
+      {
+        "response": "Stay on the sidelines.",
+        "scores": [{ "nature": "Calm", "points": 1 }],
+        "id": 0
+      },
+      {
+        "response": "Sing along!",
+        "scores": [
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Naive", "points": 2 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "Walk away.",
+        "scores": [
+          { "nature": "Lonely", "points": 1 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "You see a big and comfortable bed. Your first reaction is to...",
+    "responses": [
+      {
+        "response": "Jump on it!",
+        "scores": [
+          { "nature": "Hasty", "points": 1 },
+          { "nature": "Sassy", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Belly flop!",
+        "scores": [{ "nature": "Impish", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "Curl up.",
+        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "You're daydreaming...when your friend sprays you with water! What do you do?",
+    "responses": [
+      {
+        "response": "Get mad!",
+        "scores": [{ "nature": "Hasty", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Get sad.",
+        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "Woo-hoo! Water fight!",
+        "scores": [
+          { "nature": "Impish", "points": 2 },
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Naive", "points": 2 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "How are your mornings?",
+    "responses": [
+      {
+        "response": "Always in a rush!",
+        "scores": [
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Impish", "points": 2 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Always perfect.",
+        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "id": 1
+      },
+      {
+        "response": "They are OK.",
+        "scores": [
+          { "nature": "Docile", "points": 1 },
+          { "nature": "Timid", "points": 2 }
+        ],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "You've been invited to a wonderful party. It's time for the party to start, but there's nobody there! You think...?",
+    "responses": [
+      {
+        "response": "Did something happen?",
+        "scores": [{ "nature": "Docile", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Maybe I have the day wrong?",
+        "scores": [
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Relaxed", "points": 2 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "Let's get this party started!",
+        "scores": [{ "nature": "Bold", "points": 2 }],
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "What's your studying style?",
+    "responses": [
+      {
+        "response": "Working hard, every day.",
+        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "If I remember to...",
+        "scores": [
+          { "nature": "Quirky", "points": 2 },
+          { "nature": "Hasty", "points": 1 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "I just cover what I need to.",
+        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "id": 2
+      },
+      {
+        "response": "I can't really do it alone...",
+        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "id": 3
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "You've been handed a large bag as a souvenir. What do you do?",
+    "responses": [
+      {
+        "response": "Wait until I get home to open it.",
+        "scores": [{ "nature": "Docile", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "Shake it!",
+        "scores": [{ "nature": "Naive", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "Open it!",
+        "scores": [{ "nature": "Rash", "points": 2 }],
+        "id": 2
+      },
+      {
+        "response": "It's smaller than everyone else's...",
+        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "id": 3
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Hey, what's that? There's someone behind you! So...did you look just now?",
+    "responses": [
+      {
+        "response": "Don't do that! It scared me!",
+        "scores": [{ "nature": "Timid", "points": 2 }],
+        "id": 0
+      },
+      {
+        "response": "OK, I admit it. You tricked me.",
+        "scores": [{ "nature": "Docile", "points": 2 }],
+        "id": 1
+      },
+      {
+        "response": "No way. I didn't fall for it.",
+        "scores": [
+          { "nature": "Lonely", "points": 2 },
+          { "nature": "Sassy", "points": 2 }
+        ],
+        "id": 2
+      },
+      {
+        "response": "Huh? What?",
+        "scores": [{ "nature": "Relaxed", "points": 2 }],
+        "id": 3
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "You want to reveal that you like someone a whole bunch! What do you do?",
+    "responses": [
+      {
+        "response": "Show it a little by playing together.",
+        "scores": [
+          { "nature": "Jolly", "points": 2 },
+          { "nature": "Quiet", "points": 1 }
+        ],
+        "id": 0
+      },
+      {
+        "response": "Make it obvious by...playing a prank!",
+        "scores": [
+          { "nature": "Lonely", "points": 2 },
+          { "nature": "Naive", "points": 1 }
+        ],
+        "id": 1
+      },
+      {
+        "response": "State it clearly for all to hear!",
+        "scores": [
+          { "nature": "Bold", "points": 1 },
+          { "nature": "Brave", "points": 2 },
+          { "nature": "Impish", "points": 2 }
+        ],
+        "id": 2
+      },
+      {
+        "response": "Keep it to myself! It's too risky!",
+        "scores": [{ "nature": "Timid", "points": 1 }],
+        "id": 3
+      }
+    ]
+  }
+]
