@@ -55,6 +55,7 @@ export const radialChartConfig = {
         grid: 
         {
             lineWidth: 1.2,
+            circular: true,
             color: 'rgba(245, 245, 245, 0.5)',
         },
         ticks:{
@@ -63,12 +64,14 @@ export const radialChartConfig = {
         },
         pointLabels:
         {
+            display: true,
             color: 'rgba(245, 245, 245, 0.9)',
             font:
             {
                 size: 11,
             }
-        }
+        },
+        suggestedMin: 0,
       },
     },
     elements:

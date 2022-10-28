@@ -5,6 +5,7 @@
 
   let chart = null;
   let myChart = null;
+  let minDataValue = 0.05;
 
   store.subscribe((value) => {
     if (myChart) updateData();
@@ -14,7 +15,7 @@
     let values = [];
 
     for (let [key, value] of Object.entries($store.points)) {
-      values.push(value / $store.maxPoints[key]);
+      values.push((value / $store.maxPoints[key]) + minDataValue);
     }
 
     myChart.data.datasets[0].data = values;
@@ -28,7 +29,7 @@
 
     for (let [key, value] of Object.entries($store.points)) {
       labels.push(key);
-      values.push(value / $store.maxPoints[key]);
+      values.push(((value / $store.maxPoints[key]) + minDataValue) / (1 + minDataValue));
     }
 
     let data = {
@@ -36,6 +37,7 @@
       datasets: [
         {
           label: "Naturalezas",
+          lineTension: 0.1,
           data: values,
           backgroundColor: [
             "rgba(255, 99, 132, 0.5)",
