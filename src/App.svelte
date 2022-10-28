@@ -9,7 +9,10 @@
 </script>
 
 <div
-  class="fixed h-screen w-screen justify-center bg-cover bg-[url(background.png)] brightness-75">
+  class="fixed h-screen w-screen justify-center bg-cover bg-[url(dreamBack.png)] brightness-75 infinite-scroll-right">
+</div>
+<div
+  class="fixed h-screen w-screen justify-center bg-cover bg-[url(dreamFront.png)] brightness-75 opacity-50 infinite-scroll-left">
 </div>
 <main class="relative">
   <div class="flex flex-col flex-wrap h-screen justify-end">

@@ -65,4 +65,32 @@
       border: 15px solid transparent;
       border-image: url(pmdtextbox.png) 43 round;
     }
+
+    .infinite-scroll-right
+    {
+      animation : infinite-scroll-right 480s infinite;
+    }
+
+    .infinite-scroll-left
+    {
+      animation : infinite-scroll-left 480s infinite;
+    }
+
+    @keyframes infinite-scroll-right {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 200% 0;
+      }
+    }
+
+    @keyframes infinite-scroll-left {
+      0% {
+        background-position: 200% 0;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    }
   }
