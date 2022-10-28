@@ -52,16 +52,17 @@
     .dynamicText {
       @apply text-base sm:text-2xl xl:text-3xl;
     }
-  }
 
-  .text-box {
-    padding: 0.5rem;
-    text-align: center;
-
-    background-color: #212021df;
-
-    box-sizing: border-box;
-    border-radius: 15px;
-    border: 15px solid transparent;
-    border-image: url(pmdtextbox.png) 43 round;
+    .text-box {
+      @apply  backdrop-blur-lg;
+      padding: 0.5rem;
+      text-align: center;
+  
+      background-color: hsla(300, 2%, 13%, 0.75);
+  
+      box-sizing: border-box;
+      border-radius: 15px;
+      border: 15px solid transparent;
+      border-image: url(pmdtextbox.png) 43 round;
+    }
   }

@@ -38,7 +38,7 @@
           label: "Naturalezas",
           data: values,
           backgroundColor: [
-            "rgba(255, 99, 132, 0.2)",
+            "rgba(255, 99, 132, 0.5)",
           ],
           borderColor: [
             "rgba(255, 99, 132, 1)",
@@ -68,7 +68,6 @@
 </script>
 
 <div
-  class="h-fit min-w-screen dynamicMargin bg-white rounded-xl border-pink-600 border-solid border-8
-  hover:border-cyan-500 transition-all">
+  class="h-fit min-w-screen dynamicMargin 50 rounded-xl p-2 transition-all text-box">
   <canvas bind:this="{chart}"></canvas>
 </div>
