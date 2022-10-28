@@ -1,0 +1,18 @@
+{
+    "Fuerte":["Torchic", "Treecko"],
+    "Docil":["Charmander", "Bulbasaur"],
+    "Osada":["Pikachu", "Charmander"],
+    "Alegre":["Totodile", "Squirtle"],
+    "Agitada":["Piplup", "Chimchar"],
+    "Ingenua":["Chimchar", "Skitty"],
+    "Miedosa":["Cyndaquil", "Turtwig"],
+    "Activa":["Shinx", "Pikachu"],
+    "Grosera":["Riolu", "Totodile"],
+    "Serena":["Chikorita", "Cyndaquil"],
+    "Plácida":["Phanpy", "Vulpix"],
+    "Huraña":["Bulbasaur", "Mudkip"],
+    "Rara":["Squirtle", "Piplup"],
+    "Mansa":["Treecko", "Chikorita"],
+    "Alocada":["Mudkip", "Torchic"],
+    "Audaz":["Turtwig", "Squirtle"]
+}
