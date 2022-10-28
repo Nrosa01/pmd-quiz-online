@@ -1,8 +1,9 @@
 import { writable } from 'svelte/store';
-import natures from './natures.json';
 import { getMaxPoints } from './utils.js';
+import {getNatures} from './utils.js';
+import { getLanguage } from './utils.js';
 
-const point = natures.reduce((acc, cur) => {
+const point = getNatures().reduce((acc, cur) => {
     acc[cur] = 0;
     return acc;
 }, {});
@@ -17,7 +18,7 @@ export const radialChartConfig = {
     plugins: {
       title: {
         display: true,
-        text: 'Naturalezas',
+        text: getLanguage() == 'es' ? 'Naturalezas' : 'Natures',
         color: 'rgba(245, 245, 245, 1)',
         font: 
         {

@@ -2,10 +2,12 @@
   import { onMount } from "svelte";
   import Chart from "chart.js/auto";
   import { store, radialChartConfig } from "../assets/store.js";
+  import {getLanguage} from "../assets/utils.js";
 
   let chart = null;
   let myChart = null;
   let minDataValue = 0.05;
+  let labelText = getLanguage() === "es" ? "Naturalezas" : "Natures";
 
   store.subscribe((value) => {
     if (myChart) updateData();
@@ -36,7 +38,7 @@
       labels: labels,
       datasets: [
         {
-          label: "Naturalezas",
+          label: labelText,
           lineTension: 0.1,
           data: values,
           backgroundColor: [
