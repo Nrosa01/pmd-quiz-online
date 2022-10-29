@@ -1,18 +1,23 @@
 import { writable } from 'svelte/store';
 import { getMaxPoints } from './utils.js';
-import {getNatures} from './utils.js';
 import { getLanguage } from './utils.js';
 
-const point = getNatures().reduce((acc, cur) => {
+const natures = await fetch(`/lang/${getLanguage()}/natures${getLanguage()}.json`).then(res => res.json());
+const questions = await fetch(`/lang/${getLanguage()}/questions${getLanguage()}.json`).then(res => res.json());
+const natureToPokemon = await fetch(`/lang/${getLanguage()}/natureToPokemon${getLanguage()}.json`).then(res => res.json());
+
+const point = natures.reduce((acc, cur) => {
     acc[cur] = 0;
     return acc;
 }, {});
 
 export let store = writable({
     points: point,
-    maxPoints: getMaxPoints(point),
+    maxPoints: getMaxPoints(point, questions),
+    questions: questions,
+    natures: natures,
+    natureToPokemon: natureToPokemon,
 });
-
 
 export const radialChartConfig = {
     plugins: {

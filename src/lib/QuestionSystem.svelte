@@ -6,7 +6,7 @@
   import * as utils from "../assets/utils.js";
   import { onMount } from "svelte";
 
-  let data = utils.getQuestionData();
+  let data = $store.questions;
   let numberOfQuestions = $store.numQuestions;
   let questions = [];
 

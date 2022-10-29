@@ -1,18 +1,3 @@
-import { store } from './store.js';
-import { data } from './dataLoader.js';
-
-export function getQuestionData() {
-   return data.questions;
-}
-
-export function getNatures() {
-    return data.natures;
- }
- 
- export function getNatureToPokemon() {
-    return data.natureToPokemon;
- }
-
 export function isMobileDevice() {
     let isMobile = (typeof window.orientation !== "undefined") || 
     (navigator.userAgent.indexOf('IEMobile') !== -1) || 
@@ -32,7 +17,7 @@ export function getLanguage() {
     return window.navigator.language.split('-')[0];
 }
 
-export function getMaxPoints(points, data = getQuestionData()) {
+export function getMaxPoints(points, data) {
     let currentData = data;
 
     let maxPoints = Object.assign({}, points);
