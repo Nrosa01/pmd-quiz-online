@@ -35,10 +35,10 @@
   }
 
   function handleEvent(event) {
-    if (event.detail.type == "mouseenter") {
+    if (event.detail.type === "mouseenter") {
       for (let i = 0; i < answerComponents.length; i++)
         answerComponents[i].disabled = i != event.detail.id;
-    } else if (event.detail.type == "mouseleave") {
+    } else if (event.detail.type === "mouseleave") {
       answerComponents.forEach((answer) => {
         answer.disabled = false;
       });

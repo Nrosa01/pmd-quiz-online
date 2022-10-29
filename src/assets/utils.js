@@ -7,7 +7,7 @@ import natureToPokemonEn from './natureToPokemonEn.json';
 import natureToPokemonEs from './natureToPokemonEs.json';
 
 export function getQuestionData() {
-    if (getLanguage() == 'es')
+    if (getLanguage() === 'es')
         return dataEs;
     else
         return dataEn;
@@ -29,14 +29,14 @@ export function isTouchEnabled() {
 }
 
 export function getNatures() {
-   if (getLanguage() == 'es')
+   if (getLanguage() === 'es')
         return naturesEs;
     else
         return naturesEn;
 }
 
 export function getNatureToPokemon() {
-    if (getLanguage() == 'es')
+    if (getLanguage() === 'es')
         return natureToPokemonEs;
     else
         return natureToPokemonEn;
