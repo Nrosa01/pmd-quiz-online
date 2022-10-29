@@ -1,17 +1,17 @@
 import { store } from './store.js';
-import dataEs from './dataEs.json';
-import dataEn from './dataEn.json';
-import naturesEs from './naturesEs.json';
-import naturesEn from './naturesEn.json';
-import natureToPokemonEn from './natureToPokemonEn.json';
-import natureToPokemonEs from './natureToPokemonEs.json';
+import { data } from './dataLoader.js';
 
 export function getQuestionData() {
-    if (getLanguage() === 'es')
-        return dataEs;
-    else
-        return dataEn;
+   return data.questions;
 }
+
+export function getNatures() {
+    return data.natures;
+ }
+ 
+ export function getNatureToPokemon() {
+    return data.natureToPokemon;
+ }
 
 export function isMobileDevice() {
     let isMobile = (typeof window.orientation !== "undefined") || 
@@ -26,20 +26,6 @@ export function isTouchEnabled() {
     return ( 'ontouchstart' in window ) ||
            ( navigator.maxTouchPoints > 0 ) ||
            ( navigator.msMaxTouchPoints > 0 );
-}
-
-export function getNatures() {
-   if (getLanguage() === 'es')
-        return naturesEs;
-    else
-        return naturesEn;
-}
-
-export function getNatureToPokemon() {
-    if (getLanguage() === 'es')
-        return natureToPokemonEs;
-    else
-        return natureToPokemonEn;
 }
 
 export function getLanguage() {
