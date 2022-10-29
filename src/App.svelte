@@ -7,13 +7,21 @@
 </script>
 
 <div
-  class="fixed h-screen w-screen justify-center bg-cover brightness-75 infinite-scroll-right">
+  class="fixed h-screen w-screen justify-center bg-cover brightness-75 infinite-scroll-right -z-10">
 </div>
 <div
-  class="fixed h-screen w-screen justify-center bg-cover brightness-75 opacity-50 infinite-scroll-left">
+  class="fixed h-screen w-screen justify-center bg-cover brightness-75 opacity-50 infinite-scroll-left -z-10">
 </div>
-<main class="relative">
-  <div class="flex flex-col flex-wrap h-screen justify-end">
-    <QuestionSystem />
+
+{#if $store.questions && $store.natures}
+  <main class="relative">
+    <div class="flex flex-col flex-wrap h-screen justify-end">
+      <QuestionSystem />
+    </div>
+  </main>
+{:else}
+  <div
+    class="flex flex-col justify-center items-center text-center h-screen w-screen bg-black/90 z-10">
+    <h1 class="text-8xl text-white">Loading...</h1>
   </div>
-</main>
+{/if}

@@ -2,9 +2,13 @@ import { writable } from 'svelte/store';
 import { getMaxPoints } from './utils.js';
 import { getLanguage } from './utils.js';
 
-const natures = await fetch(`/lang/${getLanguage()}/natures${getLanguage()}.json`).then(res => res.json());
-const questions = await fetch(`/lang/${getLanguage()}/questions${getLanguage()}.json`).then(res => res.json());
-const natureToPokemon = await fetch(`/lang/${getLanguage()}/natureToPokemon${getLanguage()}.json`).then(res => res.json());
+let lang = getLanguage();
+
+const [natures, questions, natureToPokemon] = await Promise.all([
+    fetch(`/lang/${lang}/natures${lang}.json`).then(res => res.json()),
+    fetch(`/lang/${lang}/questions${lang}.json`).then(res => res.json()),
+    fetch(`/lang/${lang}/natureToPokemon${lang}.json`).then(res => res.json())
+]);
 
 const point = natures.reduce((acc, cur) => {
     acc[cur] = 0;
