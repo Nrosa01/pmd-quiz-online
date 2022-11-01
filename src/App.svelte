@@ -14,7 +14,7 @@
 
 {#if $store.questions && $store.natures}
 <main class="relative">
-    <audio bind:this="{musicBg}" src="audio/quiz-music.mp3" type="audio/mp3" controls="{false}" loop autoplay preload="auto"></audio>
+    <audio bind:this="{musicBg}" src="audio/quiz-music.ogg" type="audio/ogg" controls="{false}" loop autoplay preload="auto"></audio>
     <div
       class="fixed h-screen w-screen justify-center bg-cover brightness-75 infinite-scroll-right -z-10">
     </div>
