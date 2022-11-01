@@ -83,6 +83,7 @@
     {
       --time: 360s;
       --hueTime: 10s;
+      --arrowSize: 0.45rem;
     }
 
     .infinite-scroll-right
@@ -102,6 +103,17 @@
       background-repeat: repeat-x;
       background-size: contain;
     }
+
+    .arrow-down {
+      width: 0; 
+      height: 0; 
+      border-left: var(--arrowSize) solid transparent;
+      border-right: var(--arrowSize) solid transparent;
+      
+      border-top: var(--arrowSize) solid rgba(255, 255, 255, 0.608);
+    }
+
+    .rendering-pixelated { image-rendering: pixelated; }
 
     @keyframes infinite-scroll-right {
       0% {
