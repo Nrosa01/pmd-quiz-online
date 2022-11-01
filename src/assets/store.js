@@ -4,10 +4,11 @@ import { getLanguage } from './utils.js';
 
 let lang = getLanguage();
 
-const [natures, questions, natureToPokemon] = await Promise.all([
-    fetch(`/lang/${lang}/natures${lang}.json`).then(res => res.json()),
-    fetch(`/lang/${lang}/questions${lang}.json`).then(res => res.json()),
-    fetch(`/lang/${lang}/natureToPokemon${lang}.json`).then(res => res.json())
+const [natures, questions, natureToPokemon, natureDescription] = await Promise.all([
+    fetch(`/lang/${lang}/natures-${lang}.json`).then(res => res.json()),
+    fetch(`/lang/${lang}/questions-${lang}.json`).then(res => res.json()),
+    fetch(`/lang/${lang}/natureToPokemon-${lang}.json`).then(res => res.json()),
+    fetch(`/lang/${lang}/natureDescription-${lang}.json`).then(res => res.json())
 ]);
 
 const point = natures.reduce((acc, cur) => {
@@ -21,6 +22,7 @@ export let store = writable({
     questions: questions,
     natures: natures,
     natureToPokemon: natureToPokemon,
+    natureDescription: natureDescription,
 });
 
 export const radialChartConfig = {

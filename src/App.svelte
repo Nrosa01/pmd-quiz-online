@@ -2,8 +2,14 @@
   import DebugNature from "./lib/DebugNature.svelte";
   import QuestionSystem from "./lib/QuestionSystem.svelte";
   import { store } from "./assets/store.js";
+    import { onMount } from "svelte";
 
   $store.numQuestions = 3;
+  let musicBg = null;
+
+  onMount(() => {
+    musicBg.volume = 0.2;
+  });
 </script>
 
 <div
@@ -14,7 +20,8 @@
 </div>
 
 {#if $store.questions && $store.natures}
-  <main class="relative">
+<audio bind:this={musicBg} src="audio/quizMusic.mp3" type="audio/mp3" controls={false} loop autoplay preload="auto"></audio>  
+<main class="relative">
     <div class="flex flex-col flex-wrap h-screen justify-end">
       <QuestionSystem />
     </div>

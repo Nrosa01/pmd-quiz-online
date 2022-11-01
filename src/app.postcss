@@ -45,6 +45,10 @@
       @apply mx-4 xl:mx-32 md:mx-16 sm:mx-8;
     }
 
+    .dynamicMarginCanvas {
+      @apply mx-8 mb-2 xl:mx-16 md:mx-8 sm:mx-8 box-border;
+    }
+
     .dynamicWidth {
       @apply w-[80vw] md:w-[30vw];
     }
@@ -64,6 +68,15 @@
       border-radius: 15px;
       border: 15px solid transparent;
       border-image: url(img/pmdtextbox.png) 43 round;
+    }
+
+    
+    .img-box{
+      background-color: hsla(300, 2%, 13%, 0.75);
+      
+      border: 8px solid transparent;
+      border-image: url(img/pmdtextbox.png) 24;
+      image-rendering: pixelated;
     }
 
     :root

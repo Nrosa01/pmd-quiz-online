@@ -41,25 +41,26 @@
   });
 </script>
 
-<div class="fixed flex-col-reverse justify-start md:flex-col md:justify-end z-10">
-  <div class="flex flex-col justify-center items-center md:items-start mb-[25%]">
-    <RadialChart />
-  </div>
-  <!-- <div
-    class="text-box min-w-screen my-2 dynamicMargin dynamicText cursor-default">
-    <h1 class="text-white select-none">Esto es una prueba</h1>
-  </div> -->
-</div>
-
 <Carousel
   bind:this="{carousel}"
   infinite="{false}"
   dots="{false}"
   arrows="{false}"
   swiping="{false}">
-  {#each questions as question (question.id)}
+  <!-- {#each questions as question (question.id)}
     <Question
       on:correctQuestion="{onCorrectQuestion}"
       questionData="{data[question.id]}" />
-  {/each}
+  {/each} -->
+
+  <div
+    class="flex flex-col-reverse md:flex-row justify-start md:justify-start items-center z-10 bg-slate-900/50 w-screen h-screen overflow-auto">
+    <div class="w-full h-fit md:w-[75%] bg-slate-500">
+      <RadialChart />
+    </div>
+    <div class="flex flex-row flex-wrap w-full h-full py-4 md:py-16 p-4 cursor-default justify-center items-center bg-slate-300">
+      <img src = "img/pokemonicons/riolu.png" alt = "" class = "w-32 h-fit img-box"/>
+      <img src = "img/pokemonicons/riolu.png" alt = "" class = "w-32 h-fit img-box"/>
+    </div>
+  </div>
 </Carousel>
