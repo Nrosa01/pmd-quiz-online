@@ -16,8 +16,8 @@
   function updateData() {
     let values = [];
 
-    for (let [key, value] of Object.entries($store.points)) {
-      values.push((value / $store.maxPoints[key]) + minDataValue);
+    for (let [key, value] of Object.entries(store.weightedPoints)) {
+      values.push(value + minDataValue);
     }
 
     myChart.data.datasets[0].data = values;

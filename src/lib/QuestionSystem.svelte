@@ -43,6 +43,21 @@
     }
   });
 
+  store.subscribe((value) => {
+    updateData();
+  });
+
+  
+  function updateData() {
+    let values = {};
+
+    for (let [key, value] of Object.entries($store.points)) {
+      values[key] = (value / $store.maxPoints[key]);
+    }
+
+    store.weightedPoints = values;
+  }
+
   function onPageChange(index) {
     console.log("Page changed to " + index);
   }
@@ -57,11 +72,11 @@
   arrows="{false}"
   swiping="{false}"
   on:pageChange="{(event) => onPageChange(event.detail)}">
-  <!-- {#each questions as question (question.id)}
+  {#each questions as question (question.id)}
     <Question
       on:correctQuestion="{onCorrectQuestion}"
       questionData="{data[question.id]}" />
-  {/each} -->
+  {/each}
 
   {#if natureDescriptionFinished}
     <NatureDecriptor bind:finish="{natureDescriptionFinished}" />
