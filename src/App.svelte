@@ -20,7 +20,7 @@
 </div>
 
 {#if $store.questions && $store.natures}
-<audio bind:this={musicBg} src="audio/quizMusic.mp3" type="audio/mp3" controls={false} loop autoplay preload="auto"></audio>  
+<audio bind:this={musicBg} src="audio/quiz-music.mp3" type="audio/mp3" controls={false} loop autoplay preload="auto"></audio>  
 <main class="relative">
     <div class="flex flex-col flex-wrap h-screen justify-end">
       <QuestionSystem />

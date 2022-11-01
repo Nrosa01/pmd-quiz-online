@@ -55,7 +55,7 @@
   class="h-fit min-w-screen dynamicMargin dynamicText transitiona-all duration-200  {clicked
     ? 'my-2'
     : 'my-1'}">
-  <audio bind:this={clickSound} src="audio/selectSound.mp3" type="audio/mp3" controls={false} preload="auto"></audio>
+  <audio bind:this={clickSound} src="audio/select-sound.mp3" type="audio/mp3" controls={false} preload="auto"></audio>
   <button
     on:click="{onClick}"
     on:mouseenter="{sendMessage}"
