@@ -2,7 +2,7 @@
   import DebugNature from "./lib/DebugNature.svelte";
   import QuestionSystem from "./lib/QuestionSystem.svelte";
   import { store } from "./assets/store.js";
-    import { onMount } from "svelte";
+  import { onMount } from "svelte";
 
   $store.numQuestions = 3;
   let musicBg = null;
@@ -12,17 +12,17 @@
   });
 </script>
 
-<div
-  class="fixed h-screen w-screen justify-center bg-cover brightness-75 infinite-scroll-right -z-10">
-</div>
-<div
-  class="fixed h-screen w-screen justify-center bg-cover brightness-75 opacity-50 infinite-scroll-left -z-10">
-</div>
-
 {#if $store.questions && $store.natures}
-<audio bind:this={musicBg} src="audio/quiz-music.mp3" type="audio/mp3" controls={false} loop autoplay preload="auto"></audio>  
 <main class="relative">
-    <div class="flex flex-col flex-wrap h-screen justify-end">
+    <audio bind:this="{musicBg}" src="audio/quiz-music.mp3" type="audio/mp3" controls="{false}" loop autoplay preload="auto"></audio>
+    <div
+      class="fixed h-screen w-screen justify-center bg-cover brightness-75 infinite-scroll-right -z-10">
+    </div>
+    <div
+      class="fixed h-screen w-screen justify-center bg-cover brightness-75 opacity-50 infinite-scroll-left -z-10">
+    </div>
+
+    <div class="flex flex-col flex-wrap h-screen justify-end bg-none">
       <QuestionSystem />
     </div>
   </main>

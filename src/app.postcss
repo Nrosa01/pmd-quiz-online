@@ -67,7 +67,7 @@
       box-sizing: border-box;
       border-radius: 15px;
       border: 15px solid transparent;
-      border-image: url(/img/pmdtextbox.png) 43 round;
+      border-image: url(/img/others/pmdtextbox.png) 43 round;
     }
 
     
@@ -75,7 +75,7 @@
       background-color: hsla(300, 2%, 13%, 0.75);
       
       border: 8px solid transparent;
-      border-image: url(/img/pmdtextbox.png) 24;
+      border-image: url(/img/others/pmdtextbox.png) 24;
       image-rendering: pixelated;
     }
 
@@ -88,7 +88,7 @@
 
     .infinite-scroll-right
     {
-      background-image: url(/img/dreambackloop.png);
+      @apply bg-[url(/img/others/dreambackloop.png)];
       animation : infinite-scroll-right var(--time) infinite, hue-Shif-tRight var(--hueTime) infinite;
       animation-timing-function: linear;
       background-repeat: repeat-x;
@@ -97,7 +97,7 @@
     
     .infinite-scroll-left
     {
-      background-image: url(/img/dreamfrontloop.png);
+      @apply bg-[url(/img/others/dreamfrontloop.png)];
       animation : infinite-scroll-left var(--time) infinite, hue-Shif-tRight  var(--hueTime) infinite;
       animation-timing-function: linear;
       background-repeat: repeat-x;
