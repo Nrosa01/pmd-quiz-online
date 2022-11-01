@@ -78,7 +78,7 @@
       questionData="{data[question.id]}" />
   {/each}
 
-  {#if natureDescriptionFinished}
+  {#if !natureDescriptionFinished}
     <NatureDecriptor bind:finish="{natureDescriptionFinished}" />
   {:else}
     <ResultScreen />

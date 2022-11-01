@@ -3,8 +3,7 @@
   import { slide, fade } from "svelte/transition";
   import { store } from "../assets/store.js";
 
-  let description = $store.natureDescription["Grosera"];
-  let descriptions = getDescriptions(description);
+  let descriptions = null;
   let index = 0;
   export let finish = false;
 
@@ -35,6 +34,35 @@
       index = descriptions.length - 1;
     }
   }
+
+  store.subscribe((value) => {
+    getBestNature();
+  });
+
+  function getBestNature() {
+    let max = 0;
+    let maxNature = "";
+    let maxNatures = [];
+
+    if (store.weightedPoints == null) return;
+
+    // First step, order the natures by their score
+    let orderedNatures = Object.keys(store.weightedPoints).sort(
+      (a, b) => store.weightedPoints[b] - store.weightedPoints[a]
+    );
+
+    // Second step, add the natures with the highest score to the array
+    for (let nature of orderedNatures) {
+      if (store.weightedPoints[nature] >= max) {
+        max = store.weightedPoints[nature];
+        maxNature = nature;
+        maxNatures.push(maxNature);
+      }
+    }
+
+    descriptions = getDescriptions($store.natureDescription[maxNature]);
+  }
+
 
   let text;
 </script>

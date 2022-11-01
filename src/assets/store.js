@@ -8,7 +8,7 @@ const [natures, questions, natureToPokemon, natureDescription, strings] = await 
     fetch(`/lang/${lang}/natures-${lang}.json`).then(res => res.json()),
     fetch(`/lang/${lang}/questions-${lang}.json`).then(res => res.json()),
     fetch(`/lang/${lang}/natureToPokemon-${lang}.json`).then(res => res.json()),
-    fetch(`/lang/${lang}/natureDescription-${lang}.json`).then(res => res.json()),
+    fetch(`/lang/${lang}/naturedescription-${lang}.json`).then(res => res.json()),
     fetch(`/lang/${lang}/strings-${lang}.json`).then(res => res.json()),
 ]);
 
