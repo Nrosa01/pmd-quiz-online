@@ -25,7 +25,8 @@
       let points = score.points;
 
       let sign = clicked ? -1 : 1;
-      $store.points[nature] += sign * points;
+      if(sign === 1)
+        $store.points[nature] += points;
     });
 
     // Toggle clicked

@@ -1,6 +1,7 @@
 <script>
   import RadialChart from "./RadialChart.svelte";
   import { store } from "../assets/store.js";
+  import { fade } from "svelte/transition";
 
   $: strings = $store.strings;
   let imagesSrc = [];
@@ -50,7 +51,7 @@
   }
 </script>
 
-<section>
+<section transition:fade>
   <!-- Using Tailwind CSS, build a grid that divides screen in half. The right grid is vertically divied in other two sections -->
   <div class="grid grid-cols-2 h-screen w-screen">
     <!-- Left grid -->
@@ -65,7 +66,7 @@
       <!-- Row of images -->
 
       <div
-        class="flex flex-row flex-wrap justify-center items-center w-[90%] gap-4">
+        class="flex flex-row flex-wrap justify-center items-center w-[90%] gap-4 pointer-events-none select-none">
         {#each imagesSrc as source}
           <img
             src="{source}"

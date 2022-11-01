@@ -6,6 +6,7 @@
   let descriptions = null;
   let index = 0;
   export let finish = false;
+  let startTransition = false;
 
   function getDescriptions(description) {
     let descriptions = [];
@@ -30,7 +31,7 @@
 
     if(index >= descriptions.length)
     {
-      finish = true;
+      startTransition = true;
       index = descriptions.length - 1;
     }
   }
@@ -67,13 +68,15 @@
   let text;
 </script>
 
-<section>
+{#if !startTransition}
+<section class="select-none">
   <div
     class="flex flex-col w-screen h-screen text-center justify-center items-center bg-black/[0.65]"
     on:pointerdown="{() => onPointerDown()}"
-    transition:fade>
+    transition:fade
+    on:outroend="{() => finish = true}">
     {#key index}
-    <h1 bind:this={text} class="text-yellow-50 text-4xl pointer-events-none w-[75%] select-none"
+    <h1 bind:this={text} class="text-yellow-50 text-base sm:text-xl md:text-4xl pointer-events-none w-[75%] select-none"
     transition:slide>
       {descriptions[index]}
     </h1>
@@ -81,3 +84,4 @@
     <div class="arrow-down animate-pulse"></div>
   </div>
 </section>
+{/if}
