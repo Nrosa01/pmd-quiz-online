@@ -97,7 +97,7 @@
           }}">
           <div
             class="flex flex-col justify-center items-center text-center h-screen w-screen bg-black/50 z-10">
-            <h1 class="text-8xl text-white animate-pulse">
+            <h1 class="text-4xl lg:text-8xl text-white animate-pulse">
               {isTouchEnabled()
                 ? data.strings["TouchToStart"]
                 : data.strings["ClickToStart"]}
