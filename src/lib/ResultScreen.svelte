@@ -89,13 +89,20 @@
           on:click="{() => {
             doTransition = true;
           }}"
-          class="text-white select-none text-box p-0 my-4 w-[40%] lg:w-[30%]"
+          class="text-white select-none text-box p-0 my-4 leading-none lg:h-fit w-[40%] lg:w-[30%] hidden lg:block"
           >{strings["Restart"]}</button>
       </div>
       <!-- Right grid -->
       <div
         class="bg-black/50 flex flex-col flex-wrap justify-start lg:justify-center items-center pb-2">
         <RadialChart class="w-[75%] m-0 p-0" />
+
+        <button
+        on:click="{() => {
+          doTransition = true;
+        }}"
+        class="text-white select-none text-box p-0 my-4 w-[75%] lg:w-[30%] block lg:hidden"
+        >{strings["Restart"]}</button>
       </div>
     </div>
   </section>
