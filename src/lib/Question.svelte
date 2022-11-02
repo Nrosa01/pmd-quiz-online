@@ -59,7 +59,7 @@
   }
 </script>
 
-<div class="flex flex-col-reverse justify-start md:flex-col md:justify-end">
+<div class="flex flex-col-reverse justify-center align-middle md:flex-col md:justify-end h-screen">
   <div class="flex flex-col justify-center items-center md:items-end">  
     {#each questionData.responses as answer (answer.id)}
     <Answer
