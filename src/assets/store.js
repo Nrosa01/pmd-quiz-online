@@ -12,7 +12,7 @@ export async function loadData() {
   const [natures, questions, natureToPokemon, natureDescription, strings] = await Promise.all([
     fetch(`/pmd-quiz-online/lang/${lang}/natures-${lang}.json`).then(res => res.json()),
     fetch(`/pmd-quiz-online/lang/${lang}/questions-${lang}.json`).then(res => res.json()),
-    fetch(`/pmd-quiz-online/lang/${lang}/natureToPokemon-${lang}.json`).then(res => res.json()),
+    fetch(`/pmd-quiz-online/lang/${lang}/naturetoPokemon-${lang}.json`).then(res => res.json()),
     fetch(`/pmd-quiz-online/lang/${lang}/naturedescription-${lang}.json`).then(res => res.json()),
     fetch(`/pmd-quiz-online/lang/${lang}/strings-${lang}.json`).then(res => res.json()),
   ]);
