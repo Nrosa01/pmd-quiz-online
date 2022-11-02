@@ -39,8 +39,10 @@
 
     if (maxNature.length === 0) return;
 
-    // Delete duplicates
-    maxNatures = [...new Set(maxNatures)];
+    // Delete duplicates maxNatures using filter
+    maxNatures = maxNatures.filter((item, index) => {
+      return maxNatures.indexOf(item) === index;
+    });
 
     // Convert nature to imageSrc iterate maxNatures array
     for (let i = 0; i < maxNatures.length; i++) {
