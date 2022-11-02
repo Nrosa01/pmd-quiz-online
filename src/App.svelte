@@ -2,7 +2,7 @@
   import QuestionSystem from "./lib/QuestionSystem.svelte";
   import { store, loadData } from "./assets/store.js";
   import { onMount } from "svelte";
-  import {fade } from 'svelte/transition';
+  import { fade } from "svelte/transition";
 
   $store.numQuestions = 10;
   let musicBg = null;
@@ -14,13 +14,13 @@
 </script>
 
 <audio
-bind:this="{musicBg}"
-src="audio/quiz-music.ogg"
-type="audio/ogg"
-controls="{false}"
-loop
-autoplay
-preload="auto"></audio>
+  bind:this="{musicBg}"
+  src="audio/quiz-music.ogg"
+  type="audio/ogg"
+  controls="{false}"
+  loop
+  autoplay
+  preload="auto"></audio>
 
 {#await loaded}
   <div
@@ -40,8 +40,14 @@ preload="auto"></audio>
 
     <section>
       <div class="flex flex-col flex-wrap h-screen justify-end bg-none">
-        <QuestionSystem dataExt={data}/>
+        <QuestionSystem dataExt="{data}" />
       </div>
     </section>
   </main>
+{:catch}
+  <div
+    class="flex flex-col justify-center items-center text-center h-screen w-screen bg-black/90 z-10"
+    transition:fade>
+    <h1 class="text-8xl text-white animate-pulse">Error promise rejected</h1>
+  </div>
 {/await}
