@@ -17,7 +17,7 @@
         "id": 1
       },
       {
-        "response": "¿Hay que repetir la salida!",
+        "response": "¡Hay que repetir la salida!",
         "scores": [
           { "nature": "Audaz", "points": 2 },
           { "nature": "Alocada", "points": 1 }
@@ -146,7 +146,7 @@
         "id": 1
       },
       {
-        "response": "¿Lo mío es el deporte!",
+        "response": "¡Lo mío es el deporte!",
         "scores": [{ "nature": "Agitada", "points": 2 }],
         "id": 2
       }
@@ -196,7 +196,7 @@
         "id": 1
       },
       {
-        "response": "¿Tonto el último!",
+        "response": "¡Tonto el último!",
         "scores": [{ "nature": "Agitada", "points": 2 }],
         "id": 2
       }
@@ -207,7 +207,7 @@
     "title": "¿Cómo te levantas?",
     "responses": [
       {
-        "response": "¿A toda pastilla!",
+        "response": "¡A toda pastilla!",
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Agitada", "points": 2 }
@@ -280,7 +280,7 @@
         "id": 1
       },
       {
-        "response": "¿Lo grito a los cuatro vientos!",
+        "response": "¡Lo grito a los cuatro vientos!",
         "scores": [
           { "nature": "Audaz", "points": 1 },
           { "nature": "Osada", "points": 2 },
@@ -289,7 +289,7 @@
         "id": 2
       },
       {
-        "response": "No se lo digo. ¿Qué vergüenza!",
+        "response": "No se lo digo. ¡Qué vergüenza!",
         "scores": [{ "nature": "Miedosa", "points": 1 }],
         "id": 3
       }
@@ -300,7 +300,7 @@
     "title": "Estás dando un paseo y de repente te llaman para hacerte una entrevista para la televisión. ¿Qué haces?",
     "responses": [
       {
-        "response": "¿Huyo! ¿Qué vergüenza!",
+        "response": "¿Huyo? ¡Qué vergüenza!",
         "scores": [{ "nature": "Miedosa", "points": 2 }],
         "id": 0
       },
@@ -313,7 +313,7 @@
         "id": 1
       },
       {
-        "response": "¿Yuju! ¿Estoy en la tele!",
+        "response": "¡Yuju! ¡Estoy en la tele!",
         "scores": [
           { "nature": "Audaz", "points": 1 },
           { "nature": "Ingenua", "points": 2 }
@@ -327,7 +327,7 @@
     "title": "¿Te gustan las fiestas con marcha?",
     "responses": [
       {
-        "response": "¿Claro!",
+        "response": "¡Claro!",
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Huraña", "points": 1 }
@@ -373,7 +373,7 @@
     "title": "Estás en medio de una reunión en la que todo el mundo está en silencio cuando oyes como alguien se tira un pedo. ¿Cómo reaccionas?",
     "responses": [
       {
-        "response": "¿Me parto de risa!",
+        "response": "¡Me parto de risa!",
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Ingenua", "points": 2 }
@@ -389,7 +389,7 @@
         "id": 1
       },
       {
-        "response": "¿¿Quién ha sido?!",
+        "response": "¿¿Quién ha sido??",
         "scores": [{ "nature": "Osada", "points": 2 }],
         "id": 2
       }
@@ -400,7 +400,7 @@
     "title": "¿Te gusta el karaoke?",
     "responses": [
       {
-        "response": "¿Claro!",
+        "response": "¡Claro!",
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Grosera", "points": 2 }
@@ -442,7 +442,7 @@
     "title": "Ves una cama que tiene pinta de ser muy cómoda. Lo primero que haces es...",
     "responses": [
       {
-        "response": "¿Salto encima!",
+        "response": "¡Salto encima!",
         "scores": [
           { "nature": "Activa", "points": 1 },
           { "nature": "Grosera", "points": 1 }
@@ -450,12 +450,12 @@
         "id": 0
       },
       {
-        "response": "¿Me tiro!",
+        "response": "¡Me tiro!",
         "scores": [{ "nature": "Agitada", "points": 2 }],
         "id": 1
       },
       {
-        "response": "¿Me tumbo!",
+        "response": "¡Me tumbo!",
         "scores": [{ "nature": "Huraña", "points": 2 }],
         "id": 2
       }
@@ -517,7 +517,7 @@
         "id": 0
       },
       {
-        "response": "¿Me río! ¿Es divertidísimo!",
+        "response": "¡Me río! ¡Es divertidísimo!",
         "scores": [
           { "nature": "Agitada", "points": 2 },
           { "nature": "Ingenua", "points": 2 },
@@ -532,7 +532,7 @@
     "title": "Estás soñando despierto... y un amigo te tira agua encima. ¿Qué haces?",
     "responses": [
       {
-        "response": "¿Me enfado!",
+        "response": "¡Me enfado!",
         "scores": [{ "nature": "Activa", "points": 2 }],
         "id": 0
       },
@@ -542,7 +542,7 @@
         "id": 1
       },
       {
-        "response": "¿Yuju! ¿Pelea de agua!",
+        "response": "¡Yuju! ¡Pelea de agua!",
         "scores": [
           { "nature": "Agitada", "points": 2 },
           { "nature": "Alegre", "points": 2 },
@@ -557,7 +557,7 @@
     "title": "¿Se te ha pasado por la cabeza alguna vez que pueda haber un tesoro enterrado en tu jardín?",
     "responses": [
       {
-        "response": "¿Síii!",
+        "response": "¡Síii!",
         "scores": [{ "nature": "Ingenua", "points": 2 }],
         "id": 0
       },
@@ -589,10 +589,10 @@
   },
   {
     "id": 24,
-    "title": "¿Eh! ¿Mira!... ¿Hay alguien detrás de ti! ¿Te has girado para mirar?",
+    "title": "¡Eh! ¡Mira!... ¡Hay alguien detrás de ti! ¿Te has girado para mirar?",
     "responses": [
       {
-        "response": "¿Anda que menudo susto!",
+        "response": "¡Anda que menudo susto!",
         "scores": [{ "nature": "Miedosa", "points": 2 }],
         "id": 0
       },
@@ -731,10 +731,10 @@
   },
   {
     "id": 30,
-    "title": "¿Te encuentras algo con una rebaja espectacular! ¿Qué haces?",
+    "title": "¡Te encuentras algo con una rebaja espectacular! ¿Qué haces?",
     "responses": [
       {
-        "response": "¿Me lo compro ipso facto!",
+        "response": "¡Me lo compro ipso facto!",
         "scores": [{ "nature": "Activa", "points": 2 }],
         "id": 0
       },
@@ -765,7 +765,7 @@
         "id": 1
       },
       {
-        "response": "¿Qué merienda? ¿Me la he zampado!",
+        "response": "¿Qué merienda? ¡Me la he zampado!",
         "scores": [{ "nature": "Alocada", "points": 2 }],
         "id": 2
       }
@@ -776,7 +776,7 @@
     "title": "¿Te gustaría ser una persona alta algún día?",
     "responses": [
       {
-        "response": "¿Y tanto!",
+        "response": "¡Y tanto!",
         "scores": [{ "nature": "Grosera", "points": 2 }],
         "id": 0
       },
@@ -792,7 +792,7 @@
     "title": "¿Crees que es importante intentar ser siempre el mejor?",
     "responses": [
       {
-        "response": "¿Por supuesto!",
+        "response": "¡Por supuesto!",
         "scores": [
           { "nature": "Huraña", "points": 1 },
           { "nature": "Grosera", "points": 1 }
@@ -814,7 +814,7 @@
     "title": "¿Te has mirado alguna vez en un espejo y has pensado: \"¿Cómo molo!\"?",
     "responses": [
       {
-        "response": "¿Claro!",
+        "response": "¡Claro!",
         "scores": [
           { "nature": "Alegre", "points": 1 },
           { "nature": "Ingenua", "points": 1 },
@@ -834,7 +834,7 @@
     "title": "¿Serías capaz de regañar a alguien que has visto hacer algo mal?",
     "responses": [
       {
-        "response": "¿Por supuesto!",
+        "response": "¡Por supuesto!",
         "scores": [
           { "nature": "Audaz", "points": 1 },
           { "nature": "Osada", "points": 2 },
@@ -862,7 +862,7 @@
         "id": 0
       },
       {
-        "response": "¿Tiempo libre!",
+        "response": "¡Tiempo libre!",
         "scores": [{ "nature": "Serena", "points": 2 }],
         "id": 1
       },
@@ -883,7 +883,7 @@
         "id": 0
       },
       {
-        "response": "¿Desato mi furia!",
+        "response": "¡Desato mi furia!",
         "scores": [
           { "nature": "Alegre", "points": 2 },
           { "nature": "Plácida", "points": 2 }
@@ -891,7 +891,7 @@
         "id": 1
       },
       {
-        "response": "¿Qué va a ser de mí!",
+        "response": "¡Qué va a ser de mí!",
         "scores": [{ "nature": "Huraña", "points": 2 }],
         "id": 2
       }
@@ -902,12 +902,12 @@
     "title": "Ayer compraste un juguete y hoy vuelves a la tienda y te lo encuentras a mitad de precio. ¿Cómo te sienta?",
     "responses": [
       {
-        "response": "¿Qué rabia!",
+        "response": "¡Qué rabia!",
         "scores": [{ "nature": "Fuerte", "points": 2 }],
         "id": 0
       },
       {
-        "response": "¿Me enfado muchísimo!",
+        "response": "¡Me enfado muchísimo!",
         "scores": [{ "nature": "Dócil", "points": 2 }],
         "id": 1
       },
@@ -956,12 +956,12 @@
         "id": 0
       },
       {
-        "response": "Digo que no. ¿Engorda demasiado!",
+        "response": "Digo que no. ¡Engorda demasiado!",
         "scores": [{ "nature": "Fuerte", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Mmm... ¿Adoro los postres! ♪",
+        "response": "Mmm... ¡Adoro los postres! ♪",
         "scores": [
           { "nature": "Audaz", "points": 2 },
           { "nature": "Alegre", "points": 2 },
@@ -981,7 +981,7 @@
         "id": 0
       },
       {
-        "response": "¿Ya improvisaré algo!",
+        "response": "¡Ya improvisaré algo!",
         "scores": [{ "nature": "Plácida", "points": 2 }],
         "id": 1
       },
@@ -1067,7 +1067,7 @@
     "title": "Parece que tus amigos están quedando para salir, pero no alcanzas a oírlos. ¿Qué piensas?",
     "responses": [
       {
-        "response": "¿Yo también quiero ir!",
+        "response": "¡Yo también quiero ir!",
         "scores": [{ "nature": "Ingenua", "points": 2 }],
         "id": 0
       },
@@ -1088,7 +1088,7 @@
     "title": "¿Te gustaría ser una persona famosa?",
     "responses": [
       {
-        "response": "¿Claro!",
+        "response": "¡Claro!",
         "scores": [
           { "nature": "Huraña", "points": 2 },
           { "nature": "Grosera", "points": 2 }
@@ -1112,12 +1112,12 @@
         "id": 0
       },
       {
-        "response": "¿La agito!",
+        "response": "¡La agito!",
         "scores": [{ "nature": "Ingenua", "points": 2 }],
         "id": 1
       },
       {
-        "response": "¿La abro enseguida!",
+        "response": "¡La abro enseguida!",
         "scores": [{ "nature": "Alocada", "points": 2 }],
         "id": 2
       },
@@ -1188,12 +1188,12 @@
     "title": "¿Has hecho algún propósito de año nuevo?",
     "responses": [
       {
-        "response": "¿Por supuesto!",
+        "response": "¡Por supuesto!",
         "scores": [{ "nature": "Fuerte", "points": 2 }],
         "id": 0
       },
       {
-        "response": "¿Qué va!",
+        "response": "¡Qué va!",
         "scores": [
           { "nature": "Rara", "points": 2 },
           { "nature": "Alocada", "points": 1 }
@@ -1233,10 +1233,10 @@
   },
   {
     "id": 53,
-    "title": "¿Te ha tocado el premio gordo en una rifa! ¿Qué piensas?",
+    "title": "¡Te ha tocado el premio gordo en una rifa! ¿Qué piensas?",
     "responses": [
       {
-        "response": "¿Cómo mola!",
+        "response": "¡Cómo mola!",
         "scores": [
           { "nature": "Alegre", "points": 1 },
           { "nature": "Ingenua", "points": 2 }
@@ -1244,12 +1244,12 @@
         "id": 0
       },
       {
-        "response": "¿No me lo puedo creer!",
+        "response": "¡No me lo puedo creer!",
         "scores": [{ "nature": "Miedosa", "points": 1 }],
         "id": 1
       },
       {
-        "response": "¿No se lo diré a nadie!",
+        "response": "¡No se lo diré a nadie!",
         "scores": [{ "nature": "Mansa", "points": 2 }],
         "id": 2
       }
@@ -1260,7 +1260,7 @@
     "title": "¿Crees que a veces es necesario echar la culpa a los demás?",
     "responses": [
       {
-        "response": "¿Por supuesto!",
+        "response": "¡Por supuesto!",
         "scores": [
           { "nature": "Mansa", "points": 2 },
           { "nature": "Grosera", "points": 2 }
@@ -1300,12 +1300,12 @@
     "title": "Te quitas las zapatillas y te das cuenta de que llevas dos calcetines diferentes. ¿Qué haces?",
     "responses": [
       {
-        "response": "¿Uf! ¿Qué vergüenza!",
+        "response": "¡Uf! ¡Qué vergüenza!",
         "scores": [{ "nature": "Dócil", "points": 2 }],
         "id": 0
       },
       {
-        "response": "¿¿Otra vez?!",
+        "response": "¿¿Otra vez??",
         "scores": [{ "nature": "Alocada", "points": 2 }],
         "id": 1
       },
@@ -1321,7 +1321,7 @@
     "title": "Acabas de meter la pata hasta el fondo. Todos tus amigos se han dado cuenta y están enfadados contigo. ¿Qué haces?",
     "responses": [
       {
-        "response": "¿Me marcho a todo gas!",
+        "response": "¡Me marcho a todo gas!",
         "scores": [{ "nature": "Miedosa", "points": 1 }],
         "id": 0
       },
@@ -1404,17 +1404,17 @@
     "title": "Un amigo te quiere invitar a cenar. ¿Qué haces?",
     "responses": [
       {
-        "response": "¿Vale!",
+        "response": "¡Vale!",
         "scores": [{ "nature": "Audaz", "points": 2 }],
         "id": 0
       },
       {
-        "response": "¿Yo invito!",
+        "response": "¡Yo invito!",
         "scores": [{ "nature": "Alegre", "points": 2 }],
         "id": 1
       },
       {
-        "response": "¿Gracias!",
+        "response": "¡Gracias!",
         "scores": [{ "nature": "Rara", "points": 2 }],
         "id": 2
       }
@@ -1425,7 +1425,7 @@
     "title": "Ves un pastel caducado, pero solo por un día. ¿Qué haces?",
     "responses": [
       {
-        "response": "¿A comer!",
+        "response": "¡A comer!",
         "scores": [
           { "nature": "Osada", "points": 2 },
           { "nature": "Plácida", "points": 1 }
@@ -1449,7 +1449,7 @@
     "title": "Estás cenando en un restaurante de cinco tenedores. ¿Qué plato pides?",
     "responses": [
       {
-        "response": "¿Un filete, por supuesto!",
+        "response": "¡Un filete, por supuesto!",
         "scores": [
           { "nature": "Agitada", "points": 2 },
           { "nature": "Ingenua", "points": 2 }
@@ -1462,7 +1462,7 @@
         "id": 1
       },
       {
-        "response": "¿Lo que sea estará rico!",
+        "response": "¡Lo que sea estará rico!",
         "scores": [{ "nature": "Audaz", "points": 2 }],
         "id": 2
       }
