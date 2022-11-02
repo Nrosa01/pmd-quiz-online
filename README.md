@@ -1,48 +1,44 @@
-# Svelte + Vite
+# Pokemon Mystery Dungeon Personality Quiz Online
 
-This template should help get you started developing with Svelte in Vite.
+## About
 
-## Recommended IDE Setup
+PMD quiz online is a litte project I did in my spare time because I love PMD and I always wanted to do this. I did it once in Unity but I didn't like the result so I decided to do it again in HTML5 using Svelte, TailwindCss and Vite as a bundler. 
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+I have no idea of what I'm doing, I'm not a web developer, this is my second frontend project (the first one was a simple sign up form to get used to this).
 
-## Need an official Svelte framework?
+Code is kind of a mess, it works, there are no bugs (that I know) and it works fine. If you want to check the code of this repo as inspiration... Please don't, give me sometime to clean it up.
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+## Features
 
-## Technical considerations
+- Spanish and English support (auto detect)
+- The 63 original questions and natures descriptions
+- Original sprites, sounds and music
+- Almost identical aesthetic to the original game
+- Natures radar chart (NEW)
+- Two modes (Normal Quiz and Full Quiz)
+- Fully responsive
 
-**Why use this over SvelteKit?**
+## Images
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-  `vite dev` and `vite build` wouldn't work in a SvelteKit environment, for example.
+|                                           |                                           |
+|-------------------------------------------|-------------------------------------------|
+| !["Starting_Screen"](./readmefiles/1.png) | !["Starting_Screen"](./readmefiles/2.png) |
+| !["Starting_Screen"](./readmefiles/4.png) | !["Starting_Screen"](./readmefiles/3.png) |
 
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
 
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+## Assets used
 
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+I tried using the original assets ripped from the game to be as faithful as possible to the game while still adapting it a little to fit these times.
 
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+Althought not all assets are mine, here are the sources:
 
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
-```
+- [Font](https://www.dafont.com/es/wonder-mail.font)
+- [Questions and Natures [ES]](https://www.wikidex.net/wiki/Test_de_personalidad_de_Pokémon_Mundo_misterioso:_Exploradores_del_cielo)
+- [Questions [EN] (ripped from html)](https://explorerofsky.github.io/pmd-sky-quiz/)
+  - Sorry, your site was the only one well formatted enough to be ripped easily, I asked you for permission but you didn't read me :(
+- [Natures [EN]](https://www.deviantart.com/sparklespeed/journal/Pokemon-Mystery-Dungeon-EoS-Nature-Descriptions-439788647)
+- Sprites were ripped from the game
+- Sounds were ripped from the game
+- Music was ripped from the game
+- [Background sprite](https://discord.com/channels/710190644152369162/1029472133073604708/1035347628025716816)
+  - These were thanks to Palika on SkyTemple Discord. I modified them to make the transition in the browser seamless.
