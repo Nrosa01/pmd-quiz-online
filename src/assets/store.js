@@ -8,9 +8,6 @@ let lang = getLanguage();
 let baseURL = import.meta.env.BASE_URL
 
 export async function loadData() {
-  // Wait 3 seconds to simulate a slow loading time
-  await new Promise(resolve => setTimeout(resolve, 3000));
-
   const [natures, questions, natureToPokemon, natureDescription, strings] = await Promise.all([
     fetch(`${baseURL}lang/${lang}/natures-${lang}.json`).then(res => res.json()),
     fetch(`${baseURL}lang/${lang}/questions-${lang}.json`).then(res => res.json()),

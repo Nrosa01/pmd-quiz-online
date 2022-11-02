@@ -50,7 +50,8 @@
       let pokemons = $store.natureToPokemon[nature];
 
       for (let [key, value] of Object.entries(pokemons)) {
-        imagesSrc.push("img/pokemonicons/" + value + ".png");
+        let valueLower = value.toLowerCase();
+        imagesSrc.push("img/pokemonicons/" + valueLower + ".png");
       }
     }
   }
