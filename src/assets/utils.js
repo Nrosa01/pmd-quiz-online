@@ -13,8 +13,11 @@ export function isTouchEnabled() {
            ( navigator.msMaxTouchPoints > 0 );
 }
 
+// Currently we only support English and Spanish
 export function getLanguage() {
-    return window.navigator.language.split('-')[0];
+    let lang = window.navigator.language.split('-')[0];
+
+    return lang === 'es' ? 'es' : 'en';
 }
 
 export function getMaxPoints(points, data) {
