@@ -5,6 +5,8 @@ export let store = writable({});
 
 let lang = getLanguage();
 
+console.log(import.meta.env.BASE_URL)
+
 export async function loadData() {
   // Wait 3 seconds to simulate a slow loading time
   await new Promise(resolve => setTimeout(resolve, 3000));
