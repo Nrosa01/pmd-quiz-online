@@ -69,7 +69,7 @@
 </script>
 
 {#if !startTransition}
-<section class="select-none">
+<section class="select-none z-50">
   <div
     class="flex flex-col w-screen h-screen text-center justify-center items-center bg-black/[0.65]"
     on:pointerdown="{() => onPointerDown()}"

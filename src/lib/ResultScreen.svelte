@@ -56,7 +56,7 @@
   }
 </script>
 
-<section transition:fade>
+<section transition:fade class="z-50">
   <!-- Using Tailwind CSS, build a grid that divides screen in half. The right grid is vertically divied in other two sections -->
   <div class="grid lg:grid-cols-2 h-screen w-screen">
     <!-- Left grid -->

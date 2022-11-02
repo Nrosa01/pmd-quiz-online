@@ -1,5 +1,4 @@
 <script>
-  import DebugNature from "./lib/DebugNature.svelte";
   import QuestionSystem from "./lib/QuestionSystem.svelte";
   import { store } from "./assets/store.js";
   import { onMount } from "svelte";
@@ -13,18 +12,30 @@
 </script>
 
 {#if $store.questions && $store.natures}
-<main class="relative">
-    <audio bind:this="{musicBg}" src="audio/quiz-music.ogg" type="audio/ogg" controls="{false}" loop autoplay preload="auto"></audio>
-    <div
-      class="fixed h-screen w-screen justify-center bg-cover brightness-75 infinite-scroll-right -z-10">
-    </div>
-    <div
-      class="fixed h-screen w-screen justify-center bg-cover brightness-75 opacity-50 infinite-scroll-left -z-10">
-    </div>
+  <main class="relative">
+    <section>
+      <audio
+        bind:this="{musicBg}"
+        src="audio/quiz-music.ogg"
+        type="audio/ogg"
+        controls="{false}"
+        loop
+        autoplay
+        preload="auto"></audio>
 
-    <div class="flex flex-col flex-wrap h-screen justify-end bg-none">
-      <QuestionSystem />
-    </div>
+      <div
+        class="fixed h-screen w-screen justify-center bg-cover brightness-75 infinite-scroll-right">
+      </div>
+      <div
+        class="fixed h-screen w-screen justify-center bg-cover brightness-75 opacity-50 infinite-scroll-left">
+      </div>
+    </section>
+
+    <section>
+      <div class="flex flex-col flex-wrap h-screen justify-end bg-none">
+        <QuestionSystem />
+      </div>
+    </section>
   </main>
 {:else}
   <div
