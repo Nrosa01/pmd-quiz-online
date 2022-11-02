@@ -2,6 +2,7 @@
   import RadialChart from "./RadialChart.svelte";
   import { store } from "../assets/store.js";
   import { fade } from "svelte/transition";
+  import { transition_out } from "svelte/internal";
 
   $: strings = $store.strings;
   let imagesSrc = [];
@@ -56,35 +57,49 @@
     }
   }
 
-  function restart()
-  {
-
+  function restart() {
+    location.reload();
   }
+
+  let doTransition = false;
 </script>
 
-<section transition:fade class="z-50">
-  <!-- Using Tailwind CSS, build a grid that divides screen in half. The right grid is vertically divied in other two sections -->
-  <div class="grid lg:grid-cols-2 h-screen w-screen">
-    <!-- Left grid -->
-    <div class="bg-black/50 flex flex-col flex-wrap justify-end lg:justify-center items-center pt-2">
-      <h1 class="text-white text-box select-none p-0 mb-4 w-[80%] lg:w-[90%]">
-        {strings["ResultMessage"]}
-      </h1>
-      <!-- Row of images -->
+{#if !doTransition}
+  <section transition:fade class="z-50" on:outroend="{() => restart()}">
+    <!-- Using Tailwind CSS, build a grid that divides screen in half. The right grid is vertically divied in other two sections -->
+    <div class="grid lg:grid-cols-2 h-screen w-screen">
+      <!-- Left grid -->
       <div
-        class="flex flex-row flex-wrap justify-center items-center w-[90%] gap-4 pointer-events-none select-none pb-4">
-        {#each imagesSrc as source}
-          <img
-            src="{source}"
-            alt=""
-            class="w-[25%] rendering-pixelated img-box" />
-        {/each}
+        class="bg-black/50 flex flex-col flex-wrap justify-end lg:justify-center items-center pt-2">
+        <h1 class="text-white text-box select-none p-0 mb-4 w-[80%] lg:w-[90%]">
+          {strings["ResultMessage"]}
+        </h1>
+        <!-- Row of images -->
+        <div
+          class="flex flex-row flex-wrap justify-center items-center w-[90%] gap-4 pointer-events-none select-none pb-4">
+          {#each imagesSrc as source}
+            <img
+              src="{source}"
+              alt=""
+              class="w-[25%] rendering-pixelated img-box" />
+          {/each}
+        </div>
+        <button
+          on:click="{() => {
+            doTransition = true;
+          }}"
+          class="text-white select-none text-box p-0 my-4 w-[40%] lg:w-[30%]"
+          >{strings["Restart"]}</button>
       </div>
-      <button on:click={() => restart()} class="text-white select-none text-box p-0 my-4 w-[40%] lg:w-[30%]">{strings["Restart"]}</button>
+      <!-- Right grid -->
+      <div
+        class="bg-black/50 flex flex-col flex-wrap justify-start lg:justify-center items-center pb-2">
+        <RadialChart class="w-[75%] m-0 p-0" />
+      </div>
     </div>
-    <!-- Right grid -->
-    <div class="bg-black/50 flex flex-col flex-wrap justify-start lg:justify-center items-center pb-2">
-      <RadialChart class="w-[75%] m-0 p-0" />
-    </div>
-  </div>
-</section>
+  </section>
+{:else}
+  <section transition:fade>
+    <div class="fixed right-0 top-0 w-screen h-screen bg-black"></div>
+  </section>
+{/if}
