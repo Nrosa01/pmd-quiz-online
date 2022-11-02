@@ -5,11 +5,11 @@ import { getLanguage } from './utils.js';
 let lang = getLanguage();
 
 const [natures, questions, natureToPokemon, natureDescription, strings] = await Promise.all([
-    fetch(`/lang/${lang}/natures-${lang}.json`).then(res => res.json()),
-    fetch(`/lang/${lang}/questions-${lang}.json`).then(res => res.json()),
-    fetch(`/lang/${lang}/natureToPokemon-${lang}.json`).then(res => res.json()),
-    fetch(`/lang/${lang}/naturedescription-${lang}.json`).then(res => res.json()),
-    fetch(`/lang/${lang}/strings-${lang}.json`).then(res => res.json()),
+    fetch(`https://github.com/Nrosa01/pmd-quiz-online/tree/main/public/lang/${lang}/natures-${lang}.json`).then(res => res.json()),
+    fetch(`https://github.com/Nrosa01/pmd-quiz-online/tree/main/public/lang/${lang}/questions-${lang}.json`).then(res => res.json()),
+    fetch(`https://github.com/Nrosa01/pmd-quiz-online/tree/main/public/lang/${lang}/natureToPokemon-${lang}.json`).then(res => res.json()),
+    fetch(`https://github.com/Nrosa01/pmd-quiz-online/tree/main/public/lang/${lang}/naturedescription-${lang}.json`).then(res => res.json()),
+    fetch(`https://github.com/Nrosa01/pmd-quiz-online/tree/main/public/lang/${lang}/strings-${lang}.json`).then(res => res.json()),
 ]);
 
 const point = natures.reduce((acc, cur) => {
