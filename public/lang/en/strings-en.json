@@ -1,3 +1,5 @@
 {
-    "ResultMessage": "You seem to be..."
+    "ResultMessage": "You seem to be...",
+    "ClickToStart": "Click to start",
+    "TouchToStart": "Touch to start"
 }
