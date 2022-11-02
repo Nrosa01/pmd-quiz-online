@@ -59,7 +59,6 @@
 
     data = $store.questions;
     numberOfQuestions = $store.numQuestions;
-    console.table($store)
 
     if (numberOfQuestions > 0) {
       questions = getRandomNumOfQuestions(numberOfQuestions);

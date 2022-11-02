@@ -5,18 +5,18 @@ export let store = writable({});
 
 let lang = getLanguage();
 
-console.log(import.meta.env.BASE_URL)
+let baseURL = import.meta.env.BASE_URL
 
 export async function loadData() {
   // Wait 3 seconds to simulate a slow loading time
   await new Promise(resolve => setTimeout(resolve, 3000));
 
   const [natures, questions, natureToPokemon, natureDescription, strings] = await Promise.all([
-    fetch(`/pmd-quiz-online/lang/${lang}/natures-${lang}.json`).then(res => res.json()),
-    fetch(`/pmd-quiz-online/lang/${lang}/questions-${lang}.json`).then(res => res.json()),
-    fetch(`/pmd-quiz-online/lang/${lang}/naturetopokemon-${lang}.json`).then(res => res.json()),
-    fetch(`/pmd-quiz-online/lang/${lang}/naturedescription-${lang}.json`).then(res => res.json()),
-    fetch(`/pmd-quiz-online/lang/${lang}/strings-${lang}.json`).then(res => res.json()),
+    fetch(`${baseURL}lang/${lang}/natures-${lang}.json`).then(res => res.json()),
+    fetch(`${baseURL}lang/${lang}/questions-${lang}.json`).then(res => res.json()),
+    fetch(`${baseURL}lang/${lang}/naturetopokemon-${lang}.json`).then(res => res.json()),
+    fetch(`${baseURL}lang/${lang}/naturedescription-${lang}.json`).then(res => res.json()),
+    fetch(`${baseURL}lang/${lang}/strings-${lang}.json`).then(res => res.json()),
   ]);
 
   return { natures, questions, natureToPokemon, natureDescription, strings };
