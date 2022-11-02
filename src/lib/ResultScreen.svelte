@@ -55,6 +55,11 @@
       }
     }
   }
+
+  function restart()
+  {
+
+  }
 </script>
 
 <section transition:fade class="z-50">
@@ -75,6 +80,7 @@
             class="w-[25%] rendering-pixelated img-box" />
         {/each}
       </div>
+      <button on:click={() => restart()} class="text-white select-none text-box p-0 my-4 w-[40%] lg:w-[30%]">{strings["Restart"]}</button>
     </div>
     <!-- Right grid -->
     <div class="bg-black/50 flex flex-col flex-wrap justify-start lg:justify-center items-center pb-2">

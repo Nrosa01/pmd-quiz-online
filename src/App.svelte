@@ -68,7 +68,9 @@
 {#await loaded}
   <div
     class="flex flex-col justify-center items-center text-center h-screen w-screen bg-black/50 z-10">
-    <h1 class="text-8xl text-white animate-pulse">{isSpanish ? "Cargando..." : "Loading..."}</h1>
+    <h1 class="text-8xl text-white animate-pulse">
+      {isSpanish ? "Cargando..." : "Loading..."}
+    </h1>
   </div>
 {:then data}
   <main class="relative" transition:fade>
@@ -84,9 +86,6 @@
       {:else}
         <div
           class="flex flex-col flex-wrap h-screen justify-end bg-none"
-          on:pointerdown="{() => {
-            canStart = true;
-          }}"
           transition:fade
           on:outroend="{() => {
             if (!isPlaying) {
@@ -96,11 +95,28 @@
             finishedTransition = true;
           }}">
           <div
-            class="flex flex-col justify-center items-center text-center h-screen w-screen bg-black/50 z-10">
+            class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 z-10"
+            on:pointerdown="{() => {
+              canStart = true;
+            }}">
             <h1 class="text-4xl lg:text-8xl text-white animate-pulse">
-              {isTouchEnabled()
-                ? data.strings["TouchToStart"]
-                : data.strings["ClickToStart"]}
+              {data.strings["NormalMode"]}
+            </h1>
+            <h1 class="text-2xl lg:text-4xl text-white/75">
+              {data.strings["10"]}
+            </h1>
+          </div>
+          <div
+            class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 z-10"
+            on:pointerdown="{() => {
+              canStart = true;
+              $store.numQuestions = -1;
+            }}">
+            <h1 class="text-4xl lg:text-8xl text-white animate-pulse">
+              {data.strings["FullMode"]}
+            </h1>
+            <h1 class="text-2xl lg:text-4xl text-white/75">
+              {data.strings["63"]}
             </h1>
           </div>
         </div>
@@ -111,6 +127,8 @@
   <div
     class="flex flex-col justify-center items-center text-center h-screen w-screen bg-black/50 z-10"
     transition:fade>
-    <h1 class="text-8xl text-white animate-pulse">{isSpanish ? "Error al cargar :(" : "Error promise rejected :("}</h1>
+    <h1 class="text-8xl text-white animate-pulse">
+      {isSpanish ? "Error al cargar :(" : "Error promise rejected :("}
+    </h1>
   </div>
 {/await}
