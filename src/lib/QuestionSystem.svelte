@@ -84,8 +84,7 @@
     {/each}
   </Carousel>
 {:else if !natureDescriptionFinished}
-  <!-- <NatureDecriptor bind:this={natureDecriptor} bind:finish="{natureDescriptionFinished}" /> -->
-  <ResultScreen />
+  <NatureDecriptor bind:this={natureDecriptor} bind:finish="{natureDescriptionFinished}" />
 {:else}
   <ResultScreen />
 {/if}
