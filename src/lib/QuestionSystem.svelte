@@ -1,7 +1,7 @@
 <script>
   import Carousel from "svelte-carousel";
   import Question from "./Question.svelte";
-  import { store, initStore } from "../assets/store.js";
+  import { store } from "../assets/store.js";
   import { fade } from "svelte/transition";
 
   import * as utils from "../assets/utils.js";
@@ -13,7 +13,6 @@
   let numberOfQuestions = $store.numQuestions;
   let questions = [];
   let index = 0;
-  export let dataExt = null;
 
   let carousel = null;
 
@@ -42,35 +41,16 @@
   }
 
   onMount(() => {
-    // initStore(dataExt);
-    $store.natures = dataExt.natures;
-    $store.questions = dataExt.questions;
-    $store.natureToPokemon = dataExt.natureToPokemon;
-    $store.natureDescription = dataExt.natureDescription;
-    $store.strings = dataExt.strings;
-
-    const point = dataExt.natures.reduce((acc, cur) => {
-    acc[cur] = 0;
-    return acc;
-  }, {});
-
-    $store.points = point;
-    $store.maxPoints = utils.getMaxPoints(point, $store.questions);
-
-    data = $store.questions;
-    numberOfQuestions = $store.numQuestions;
-    console.table($store)
-
     if (numberOfQuestions > 0) {
       questions = getRandomNumOfQuestions(numberOfQuestions);
     } else {
       numberOfQuestions = data.length;
       questions = data;
     }
+  });
 
-    store.subscribe((value) => {
-      updateData();
-    });
+  store.subscribe((value) => {
+    updateData();
   });
 
   function updateData() {
@@ -104,9 +84,7 @@
     {/each}
   </Carousel>
 {:else if !natureDescriptionFinished}
-  <NatureDecriptor
-    bind:this="{natureDecriptor}"
-    bind:finish="{natureDescriptionFinished}" />
+  <NatureDecriptor bind:this={natureDecriptor} bind:finish="{natureDescriptionFinished}" />
 {:else}
   <ResultScreen />
 {/if}
