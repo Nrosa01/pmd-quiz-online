@@ -21,9 +21,9 @@
     carousel.goToNext();
     index++;
 
-    if (index === numberOfQuestions) {
-      console.log("Finished");
-    }
+    // if (index === numberOfQuestions) {
+    //   console.log("Finished");
+    // }
   }
 
   function getRandomNumOfQuestions(numberOfQuestions) {

@@ -40,19 +40,20 @@
 
     if (maxNature.length === 0) return;
 
-    // Delete duplicates maxNatures using filter
-    maxNatures = maxNatures.filter((item, index) => {
-      return maxNatures.indexOf(item) === index;
-    });
-
     // Convert nature to imageSrc iterate maxNatures array
+    // Create set to avoid duplicates
+    let set = new Set();
     for (let i = 0; i < maxNatures.length; i++) {
       let nature = maxNatures[i];
       let pokemons = $store.natureToPokemon[nature];
 
       for (let [key, value] of Object.entries(pokemons)) {
         let valueLower = value.toLowerCase();
-        imagesSrc.push("img/pokemonicons/" + valueLower + ".png");
+        
+        if (!set.has(valueLower)) {
+          set.add(valueLower);
+          imagesSrc.push("img/pokemonicons/" + valueLower + ".png");
+        }
       }
     }
   }
