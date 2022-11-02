@@ -3,7 +3,7 @@
   import { store } from "./assets/store.js";
   import { onMount } from "svelte";
 
-  $store.numQuestions = 3;
+  $store.numQuestions = 10;
   let musicBg = null;
 
   onMount(() => {
