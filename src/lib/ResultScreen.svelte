@@ -39,6 +39,9 @@
 
     if (maxNature.length === 0) return;
 
+    // Delete duplicates
+    maxNatures = [...new Set(maxNatures)];
+
     // Convert nature to imageSrc iterate maxNatures array
     for (let i = 0; i < maxNatures.length; i++) {
       let nature = maxNatures[i];
@@ -53,20 +56,15 @@
 
 <section transition:fade>
   <!-- Using Tailwind CSS, build a grid that divides screen in half. The right grid is vertically divied in other two sections -->
-  <div class="grid grid-cols-2 h-screen w-screen">
+  <div class="grid lg:grid-cols-2 h-screen w-screen">
     <!-- Left grid -->
-    <div class="bg-black/50 flex flex-col justify-center items-center">
-      <RadialChart class="w-[75%]" />
-    </div>
-    <!-- Right grid -->
-    <div class="bg-black/50 flex flex-col justify-center items-center">
-      <h1 class="text-white text-box select-none p-0 mb-4 w-[90%]">
+    <div class="bg-black/50 flex flex-col flex-wrap justify-end lg:justify-center items-center pt-2">
+      <h1 class="text-white text-box select-none p-0 mb-4 w-[80%] lg:w-[90%]">
         {strings["ResultMessage"]}
       </h1>
       <!-- Row of images -->
-
       <div
-        class="flex flex-row flex-wrap justify-center items-center w-[90%] gap-4 pointer-events-none select-none">
+        class="flex flex-row flex-wrap justify-center items-center w-[90%] gap-4 pointer-events-none select-none pb-4">
         {#each imagesSrc as source}
           <img
             src="{source}"
@@ -74,6 +72,10 @@
             class="w-[25%] rendering-pixelated img-box" />
         {/each}
       </div>
+    </div>
+    <!-- Right grid -->
+    <div class="bg-black/50 flex flex-col flex-wrap justify-start lg:justify-center items-center pb-2">
+      <RadialChart class="w-[75%] m-0 p-0" />
     </div>
   </div>
 </section>

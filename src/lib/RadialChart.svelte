@@ -72,6 +72,6 @@
 </script>
 
 <div
-  class="h-fit min-w-screen dynamicMarginCanvas rounded-xl p-2 transition-all text-box {classes}">
+  class="h-fit min-w-screen rounded-xl p-2 transition-all text-box {classes}">
   <canvas bind:this="{chart}"></canvas>
 </div>
