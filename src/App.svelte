@@ -95,7 +95,7 @@
             finishedTransition = true;
           }}">
           <div
-            class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 z-10"
+            class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
             on:pointerdown="{() => {
               canStart = true;
             }}">
@@ -107,7 +107,7 @@
             </h1>
           </div>
           <div
-            class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 z-10"
+            class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
             on:pointerdown="{() => {
               canStart = true;
               $store.numQuestions = -1;
