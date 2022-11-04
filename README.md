@@ -42,3 +42,7 @@ Althought not all assets are mine, here are the sources:
 - Music was ripped from the game
 - [Background sprite](https://discord.com/channels/710190644152369162/1029472133073604708/1035347628025716816)
   - These were thanks to Palika on SkyTemple Discord. I modified them to make the transition in the browser seamless.
+
+Update:
+ - [Question point data is now taken from PMD Info Spreadsheet](https://docs.google.com/spreadsheets/d/18utO_lCpWQ7iXY9wpbtxXpgmzebEI2IRjADp6IrUKZ0/view#gid=422133115)
+   - Thanks [UserNameFolder](https://www.reddit.com/r/MysteryDungeon/comments/ylgmf5/comment/iuyhfdr/?utm_source=share&utm_medium=web2x&context=3) for pointing it out ^^
