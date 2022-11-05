@@ -96,9 +96,9 @@
           }}">
           <div
             class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
-            on:keydown="{() => {
+            on:click="{() => {
               canStart = true;
-            }}">
+            }}" on:keydown>
             <h1 class="text-4xl lg:text-8xl text-white animate-pulse">
               {data.strings["NormalMode"]}
             </h1>
@@ -108,10 +108,10 @@
           </div>
           <div
             class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
-            on:keydown="{() => {
+            on:click="{() => {
               canStart = true;
               $store.numQuestions = -1;
-            }}">
+            }}" on:keydown>
             <h1 class="text-4xl lg:text-8xl text-white animate-pulse">
               {data.strings["FullMode"]}
             </h1>
