@@ -8,6 +8,12 @@ I have no idea of what I'm doing, I'm not a web developer, this is my second fro
 
 Code is kind of a mess, it works, there are no bugs (that I know) and it works fine. If you want to check the code of this repo as inspiration... Please don't, give me sometime to clean it up.
 
+If you have any question you can contact me on [Twitter](https://twitter.com/rionisguild) or open an issue on this repo.
+
+## Language support
+
+This website currently supports English and Spanish. If you want to help me translate it to your language, please read the [Contributing](./Contributing.md) file.
+
 ## Features
 
 - Spanish and English support (auto detect)

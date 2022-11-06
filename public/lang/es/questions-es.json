@@ -810,7 +810,7 @@
   },
   {
     "id": 34,
-    "title": "¿Te has mirado alguna vez en un espejo y has pensado: \"¿Cómo molo!\"?",
+    "title": "¿Te has mirado alguna vez en un espejo y has pensado: \"¡Cómo molo!\"?",
     "responses": [
       {
         "response": "¡Claro!",
@@ -1012,7 +1012,7 @@
         "id": 1
       },
       {
-        "response": "¿Que empiece la fiesta!",
+        "response": "¡Que empiece la fiesta!",
         "scores": [{ "nature": "Audaz", "points": 4 }],
         "id": 2
       }
