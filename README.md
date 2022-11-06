@@ -41,7 +41,7 @@ Althought not all assets are mine, here are the sources:
 - [Font](https://www.dafont.com/es/wonder-mail.font)
 - [Questions and Natures [ES]](https://www.wikidex.net/wiki/Test_de_personalidad_de_Pokémon_Mundo_misterioso:_Exploradores_del_cielo)
 - [Questions [EN] (ripped from html)](https://explorerofsky.github.io/pmd-sky-quiz/)
-  - Sorry, your site was the only one well formatted enough to be ripped easily, I asked you for permission but you didn't read me :(
+  - The points were wrong, now I use another source (check update below)
 - [Natures [EN]](https://www.deviantart.com/sparklespeed/journal/Pokemon-Mystery-Dungeon-EoS-Nature-Descriptions-439788647)
 - Sprites were ripped from the game
 - Sounds were ripped from the game
@@ -50,5 +50,5 @@ Althought not all assets are mine, here are the sources:
   - These were thanks to Palika on SkyTemple Discord. I modified them to make the transition in the browser seamless.
 
 Update:
- - [Question point data is now taken from PMD Info Spreadsheet](https://docs.google.com/spreadsheets/d/18utO_lCpWQ7iXY9wpbtxXpgmzebEI2IRjADp6IrUKZ0/view#gid=422133115)
+ - [Questions and point data is now taken from PMD Info Spreadsheet](https://docs.google.com/spreadsheets/d/18utO_lCpWQ7iXY9wpbtxXpgmzebEI2IRjADp6IrUKZ0/view#gid=422133115)
    - Thanks [UserNameFolder](https://www.reddit.com/r/MysteryDungeon/comments/ylgmf5/comment/iuyhfdr/?utm_source=share&utm_medium=web2x&context=3) for pointing it out ^^
