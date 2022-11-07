@@ -16,6 +16,9 @@
 
   onMount(() => {
     musicBg.volume = 0.1;
+    setTimeout(() => {
+      window.scrollTo({top: document.body.scrollHeight, behavior:"smooth"});
+    }, 100);
   });
 
   let pokemons = [
