@@ -2,17 +2,17 @@
 
 ## About
 
-PMD quiz online is a litte project I did in my spare time because I love PMD and I always wanted to do this. I did it once in Unity but I didn't like the result so I decided to do it again in HTML5 using Svelte, TailwindCss and Vite as a bundler. 
+PMD quiz online is a litte project I did in my spare time because I love PMD and I always wanted to do this. I did it once in Unity but I didn't like the result so I decided to do it again in HTML5 using Svelte, TailwindCSS and Vite as a bundler. This was the framework a friend of mine recommended me and I really liked it. 
 
-I have no idea of what I'm doing, I'm not a web developer, this is my second frontend project (the first one was a simple sign up form to get used to this).
+I have no idea of what I'm doing (well, I have some), I'm not a web developer, this is my second frontend project, the first one was a simple sign up form to get used to this.
 
 Code is kind of a mess, it works, there are no bugs (that I know) and it works fine. If you want to check the code of this repo as inspiration... Please don't, give me sometime to clean it up.
 
 If you have any question you can contact me on [Twitter](https://twitter.com/rionisguild) or open an issue on this repo.
 
-## Language support
+## Contributing
 
-This website currently supports English and Spanish. If you want to help me translate it to your language, please read the [Contributing](./Contributing.md) file.
+If you would like to help improving this website or if you want to help me translate it to your language, please read the [Contributing](./Contributing.md) file.
 
 ## Features
 
