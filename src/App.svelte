@@ -95,7 +95,7 @@
             finishedTransition = true;
           }}">
           <div
-            class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
+            class="flex flex-col select-none justify-center items-center text-center h-[45vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
             on:click="{() => {
               canStart = true;
             }}" on:keydown>
@@ -107,7 +107,7 @@
             </h1>
           </div>
           <div
-            class="flex flex-col select-none justify-center items-center text-center h-[50vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
+            class="flex flex-col select-none justify-center items-center text-center h-[45vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
             on:click="{() => {
               canStart = true;
               $store.numQuestions = -1;
@@ -119,6 +119,15 @@
               {data.strings["63"]}
             </h1>
           </div>
+          <div
+          class="flex flex-col select-none justify-center items-center text-center h-[10vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
+          on:click="{() => {
+            window.open("https://twitter.com/rionisguild", "_blank");
+          }}" on:keydown>
+          <p class="text-sm lg:text-2xl text-white/75 underline">
+            Creado por Rioni
+          </p>
+        </div>
         </div>
       {/if}
     </section>
