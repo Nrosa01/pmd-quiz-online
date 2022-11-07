@@ -125,7 +125,7 @@
             window.open("https://twitter.com/rionisguild", "_blank");
           }}" on:keydown>
           <p class="text-sm lg:text-2xl text-white/75 underline">
-            Creado por Rioni
+          {data.strings["Credits"]}
           </p>
         </div>
         </div>
