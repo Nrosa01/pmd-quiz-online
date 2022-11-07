@@ -52,3 +52,9 @@ Althought not all assets are mine, here are the sources:
 Update:
  - [Questions and point data is now taken from PMD Info Spreadsheet](https://docs.google.com/spreadsheets/d/18utO_lCpWQ7iXY9wpbtxXpgmzebEI2IRjADp6IrUKZ0/view#gid=422133115)
    - Thanks [UserNameFolder](https://www.reddit.com/r/MysteryDungeon/comments/ylgmf5/comment/iuyhfdr/?utm_source=share&utm_medium=web2x&context=3) for pointing it out ^^
+
+# License
+
+The code of this project is licensed under CC0 1.0 Universal (CC0 1.0) Public Domain Dedication. To view a copy of this license, visit [here](https://creativecommons.org/publicdomain/zero/1.0/) or check the [LICENSE](./LICENSE.md) file.
+
+All the assets used in this project are property of Nintendo and Creatures Inc. and are used under fair use for learning purposes.
