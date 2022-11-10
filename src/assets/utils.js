@@ -14,7 +14,7 @@ export function isTouchEnabled() {
 }
 
 // Currently we only support English, Spanish and Italian
-let languageSet = new Set(['en', 'es', 'it']);
+let languageSet = new Set(['en', 'es', 'it', 'fr']);
 
 export function getLanguage() {
     let lang = window.navigator.language.split('-')[0];
