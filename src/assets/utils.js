@@ -14,11 +14,14 @@ export function isTouchEnabled() {
 }
 
 // Currently we only support English, Spanish and Italian
+let languageSet = new Set(['en', 'es', 'it']);
+
 export function getLanguage() {
     let lang = window.navigator.language.split('-')[0];
 
-    if(lang !== "es" || lang !== "it"){
-        return "en"
+    // If the language is not supported, default to English
+    if (!languageSet.has(lang)) {
+        lang = 'en';
     }
 
     return lang;

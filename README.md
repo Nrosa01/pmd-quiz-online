@@ -17,6 +17,7 @@ If you would like to help improving this website or if you want to help me trans
 ## Features
 
 - Spanish and English support (auto detect)
+- Italian support thanks to [Luca Bertero](https://github.com/luca-bertero)
 - The 63 original questions and natures descriptions
 - Original sprites, sounds and music
 - Almost identical aesthetic to the original game
