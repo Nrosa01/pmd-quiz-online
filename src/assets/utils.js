@@ -13,8 +13,8 @@ export function isTouchEnabled() {
            ( navigator.msMaxTouchPoints > 0 );
 }
 
-// Currently we only support English, Spanish and Italian
-let languageSet = new Set(['en', 'es', 'it', 'fr']);
+// Currently we only support English, Spanish, Italian, French and German
+let languageSet = new Set(['en', 'es', 'it', 'fr','de']);
 
 export function getLanguage() {
     let lang = window.navigator.language.split('-')[0];

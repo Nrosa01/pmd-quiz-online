@@ -1,0 +1,18 @@
+{
+  "Robust": ["Flemmli", "Geckarbor"],
+  "Sanft": ["Glumanda", "Bisasam"],
+  "Mutig": ["Pikachu", "Glumanda"],
+  "Froh": ["Karnimani", "Evoli"],
+  "Pfiffig": ["Plinfa", "Panflam"],
+  "Naiv": ["Panflam", "Eneco"],
+  "Scheu": ["Feurigel", "Chelast"],
+  "Hastig": ["Sheinux", "Pikachu"],
+  "Forsch": ["Riolu", "Karnimani"],
+  "Still": ["Endivie", "Feurigel"],
+  "Locker": ["Phanpy", "Vulpix"],
+  "Solo": ["Bisasam", "Hydropi"],
+  "Kauzig": ["Schiggy", "Plinfa"],
+  "Ruhig": ["Geckarbor", "Endivie"],
+  "Hitzig": ["Hydropi", "Flemmli"],
+  "Kühn": ["Chelast", "Schiggy"]
+}
