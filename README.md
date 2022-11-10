@@ -18,7 +18,7 @@ Don't forget to check [Acknowledgements](#acknowledgements).
 
 ## Features
 
-- Spanish, English, Italian and French support (auto detect)
+- Spanish, English, Italian, French and German support (auto detect based on browser language)
 - The 64 original questions and natures descriptions
 - Original sprites, sounds and music
 - Almost identical aesthetic to the original game
@@ -59,6 +59,7 @@ Update:
 
 - Italian support thanks to [Luca Bertero](https://github.com/luca-bertero)
 - French support thanks to [Luca Bertero](https://github.com/luca-bertero)
+- German support thanks to [Luca Bertero](https://github.com/luca-bertero)
 
 # License
 
