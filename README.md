@@ -14,11 +14,12 @@ If you have any question you can contact me on [Twitter](https://twitter.com/rio
 
 If you would like to help improving this website or if you want to help me translate it to your language, please read the [Contributing](./Contributing.md) file.
 
+Don't forget to check [Acknowledgements](#acknowledgements).
+
 ## Features
 
-- Spanish and English support (auto detect)
-- Italian support thanks to [Luca Bertero](https://github.com/luca-bertero)
-- The 63 original questions and natures descriptions
+- Spanish, English, Italian and French support (auto detect)
+- The 64 original questions and natures descriptions
 - Original sprites, sounds and music
 - Almost identical aesthetic to the original game
 - Natures radar chart (NEW)
@@ -53,6 +54,11 @@ Althought not all assets are mine, here are the sources:
 Update:
  - [Questions and point data is now taken from PMD Info Spreadsheet](https://docs.google.com/spreadsheets/d/18utO_lCpWQ7iXY9wpbtxXpgmzebEI2IRjADp6IrUKZ0/view#gid=422133115)
    - Thanks [UserNameFolder](https://www.reddit.com/r/MysteryDungeon/comments/ylgmf5/comment/iuyhfdr/?utm_source=share&utm_medium=web2x&context=3) for pointing it out ^^
+
+# Acknowledgements
+
+- Italian support thanks to [Luca Bertero](https://github.com/luca-bertero)
+- French support thanks to [Luca Bertero](https://github.com/luca-bertero)
 
 # License
 
