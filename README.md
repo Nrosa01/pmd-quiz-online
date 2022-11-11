@@ -16,6 +16,24 @@ If you would like to help improving this website or if you want to help me trans
 
 Don't forget to check [Acknowledgements](#acknowledgements).
 
+To install and work locally:
+
+### Installation
+
+```bash
+$ git clone https://github.com/Nrosa01/pmd-quiz-online.git
+$ cd pmd-quiz-online
+$ npm install
+```
+> Do not use Yarn to install the dependencies, as the specific package versions in `package-lock.json` are used to build and test Svelte.
+
+### Running the app
+
+```bash
+# development in watch mode
+$ npm run dev
+```
+
 ## Features
 
 - Spanish, English, Italian, French and German support (auto detect based on browser language)
