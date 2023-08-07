@@ -1,1 +1,12 @@
-{"ResultMessage":"Você parece ser...","ClickToStart":"Clique para começar","TouchToStart":"Toque para começar","Restart":"Recomeçar","NormalMode":"Quiz normal","10":"10 perguntas","FullMode":"Quiz completo","63":"64 perguntas","Credits":"Criado por Rioni"}
+{
+  "ResultMessage": "Você parece ser...",
+  "ClickToStart": "Clique para começar",
+  "TouchToStart": "Toque para começar",
+  "Restart": "Recomeçar",
+  "NormalMode": "Quiz normal",
+  "10": "10 perguntas",
+  "FullMode": "Quiz completo",
+  "63": "64 perguntas",
+  "Credits": "Criado por Rioni",
+  "radarChartLabel": "Naturezas"
+}

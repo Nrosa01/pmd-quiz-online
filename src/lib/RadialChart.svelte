@@ -2,12 +2,10 @@
   import { onMount } from "svelte";
   import Chart from "chart.js/auto";
   import { store, radialChartConfig } from "../assets/store.js";
-  import {getLanguage} from "../assets/utils.js";
 
   let chart = null;
   let myChart = null;
   let minDataValue = 0.05;
-  let labelText = getLanguage() === "es" ? "Naturalezas" : "Natures";
 
   store.subscribe((value) => {
     if (myChart) updateData();
@@ -38,7 +36,7 @@
       labels: labels,
       datasets: [
         {
-          label: labelText,
+          label: $store.strings['radarChartLabel'],
           lineTension: 0.1,
           data: values,
           backgroundColor: [
@@ -57,10 +55,13 @@
 
   function createChart() {
     const ctx = chart.getContext("2d");
+    let options = radialChartConfig;
+    options.plugins.title.text = $store.strings['radarChartLabel'];
+
     myChart = new Chart(ctx, {
       type: "radar",
       data: createData(),
-      options: radialChartConfig,
+      options: options,
     });
   }
 

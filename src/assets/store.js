@@ -39,7 +39,7 @@ export const radialChartConfig = {
   plugins: {
     title: {
       display: true,
-      text: getLanguage() === 'es' ? 'Naturalezas' : 'Natures',
+      text: "Natures",
       color: 'rgba(245, 245, 245, 1)',
       font:
       {
