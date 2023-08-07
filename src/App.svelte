@@ -135,12 +135,13 @@
       {/if}
     </section>
   </main>
-{:catch}
+{:catch error}
   <div
     class="flex flex-col justify-center items-center text-center h-screen w-screen bg-black/50 z-10"
     transition:fade>
     <h1 class="text-8xl text-white animate-pulse">
       {isSpanish ? "Error al cargar :(" : "Error promise rejected :("}
+      {error.message}
     </h1>
   </div>
 {/await}
