@@ -1,18 +1,1 @@
-{
-  "Hardy": ["Torchic", "Treecko"],
-  "Docile": ["Charmander", "Bulbasaur"],
-  "Brave": ["Pikachu", "Charmander"],
-  "Jolly": ["Totodile", "Eevee"],
-  "Impish": ["Piplup", "Chimchar"],
-  "Naive": ["Chimchar", "Skitty"],
-  "Timid": ["Cyndaquil", "Turtwig"],
-  "Hasty": ["Shinx", "Pikachu"],
-  "Sassy": ["Riolu", "Totodile"],
-  "Calm": ["Chikorita", "Cyndaquil"],
-  "Relaxed": ["Phanpy", "Vulpix"],
-  "Lonely": ["Bulbasaur", "Mudkip"],
-  "Quirky": ["Squirtle", "Piplup"],
-  "Quiet": ["Treecko", "Chikorita"],
-  "Rash": ["Mudkip", "Torchic"],
-  "Bold": ["Turtwig", "Squirtle"]
-}
+{"Hardy":["Torchic","Treecko"],"Docile":["Charmander","Bulbasaur"],"Brave":["Pikachu","Charmander"],"Jolly":["Totodile","Eevee"],"Impish":["Piplup","Chimchar"],"Naive":["Chimchar","Skitty"],"Timid":["Cyndaquil","Turtwig"],"Hasty":["Shinx","Pikachu"],"Sassy":["Riolu","Totodile"],"Calm":["Chikorita","Cyndaquil"],"Relaxed":["Phanpy","Vulpix"],"Lonely":["Bulbasaur","Mudkip"],"Quirky":["Squirtle","Piplup"],"Quiet":["Treecko","Chikorita"],"Rash":["Mudkip","Torchic"],"Bold":["Turtwig","Squirtle"]}

@@ -1,18 +1,1 @@
-{
-  "Ardita": ["Torchic", "Treecko"],
-  "Docile": ["Charmander", "Bulbasaur"],
-  "Audace": ["Pikachu", "Charmander"],
-  "Allegra": ["Totodile", "Eevee"],
-  "Scaltra": ["Piplup", "Chimchar"],
-  "Ingenua": ["Chimchar", "Skitty"],
-  "Timida": ["Cyndaquil", "Turtwig"],
-  "Lesta": ["Shinx", "Pikachu"],
-  "Vivace": ["Riolu", "Totodile"],
-  "Calma": ["Chikorita", "Cyndaquil"],
-  "Placida": ["Phanpy", "Vulpix"],
-  "Schiva": ["Bulbasaur", "Mudkip"],
-  "Furba": ["Squirtle", "Piplup"],
-  "Quieta": ["Treecko", "Chikorita"],
-  "Ardente": ["Mudkip", "Torchic"],
-  "Sicura": ["Turtwig", "Squirtle"]
-}
+{"Ardita":["Torchic","Treecko"],"Docile":["Charmander","Bulbasaur"],"Audace":["Pikachu","Charmander"],"Allegra":["Totodile","Eevee"],"Scaltra":["Piplup","Chimchar"],"Ingenua":["Chimchar","Skitty"],"Timida":["Cyndaquil","Turtwig"],"Lesta":["Shinx","Pikachu"],"Vivace":["Riolu","Totodile"],"Calma":["Chikorita","Cyndaquil"],"Placida":["Phanpy","Vulpix"],"Schiva":["Bulbasaur","Mudkip"],"Furba":["Squirtle","Piplup"],"Quieta":["Treecko","Chikorita"],"Ardente":["Mudkip","Torchic"],"Sicura":["Turtwig","Squirtle"]}

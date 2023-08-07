@@ -1,12 +1,1 @@
-{
-    "ResultMessage": "Du bist eher...",
-    "ClickToStart": "Klicken Sie hier, um zu starten",
-    "TouchToStart": "Tippen Sie zum Starten",
-    "Restart": "Neustarten",
-    "NormalMode": "Normales Quiz",
-    "10": "10 Fragen",
-    "FullMode": "Vollständiges Quiz",
-    "63": "64 Fragen",
-    "Credits": "Erstellt von Rioni",
-    "radarChartLabel": "Naturen"
-}
+{"ResultMessage":"Du bist eher...","ClickToStart":"Klicken Sie hier, um zu starten","TouchToStart":"Tippen Sie zum Starten","Restart":"Neustarten","NormalMode":"Normales Quiz","10":"10 Fragen","FullMode":"Vollständiges Quiz","63":"64 Fragen","Credits":"Erstellt von Rioni","radarChartLabel":"Naturen"}

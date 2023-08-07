@@ -1,18 +1,1 @@
-{
-  "Robust": ["Torchic", "Treecko"],
-  "Sanft": ["Charmander", "Bulbasaur"],
-  "Mutig": ["Pikachu", "Charmander"],
-  "Froh": ["Totodile", "Eevee"],
-  "Pfiffig": ["Piplup", "Chimchar"],
-  "Naiv": ["Chimchar", "Skitty"],
-  "Scheu": ["Cyndaquil", "Turtwig"],
-  "Hastig": ["Shinx", "Pikachu"],
-  "Forsch": ["Riolu", "Totodile"],
-  "Still": ["Chikorita", "Cyndaquil"],
-  "Locker": ["Phanpy", "Vulpix"],
-  "Solo": ["Bulbasaur", "Mudkip"],
-  "Kauzig": ["Squirtle", "Piplup"],
-  "Ruhig": ["Treecko", "Chikorita"],
-  "Hitzig": ["Mudkip", "Torchic"],
-  "Kühn": ["Turtwig", "Squirtle"]
-}
+{"Robust":["Torchic","Treecko"],"Sanft":["Charmander","Bulbasaur"],"Mutig":["Pikachu","Charmander"],"Froh":["Totodile","Eevee"],"Pfiffig":["Piplup","Chimchar"],"Naiv":["Chimchar","Skitty"],"Scheu":["Cyndaquil","Turtwig"],"Hastig":["Shinx","Pikachu"],"Forsch":["Riolu","Totodile"],"Still":["Chikorita","Cyndaquil"],"Locker":["Phanpy","Vulpix"],"Solo":["Bulbasaur","Mudkip"],"Kauzig":["Squirtle","Piplup"],"Ruhig":["Treecko","Chikorita"],"Hitzig":["Mudkip","Torchic"],"Kühn":["Turtwig","Squirtle"]}

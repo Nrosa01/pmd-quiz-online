@@ -1,12 +1,1 @@
-{
-    "ResultMessage": "You seem to be...",
-    "ClickToStart": "Click to start",
-    "TouchToStart": "Touch to start",
-    "Restart": "Restart",
-    "NormalMode": "Normal Quiz",
-    "10": "10 questions",
-    "FullMode": "Full Quiz",
-    "63": "64 questions",
-    "Credits": "Created by Rioni",
-    "radarChartLabel": "Natures"
-}
+{"ResultMessage":"You seem to be...","ClickToStart":"Click to start","TouchToStart":"Touch to start","Restart":"Restart","NormalMode":"Normal Quiz","10":"10 questions","FullMode":"Full Quiz","63":"64 questions","Credits":"Created by Rioni","radarChartLabel":"Natures"}
