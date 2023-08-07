@@ -60,6 +60,7 @@ Update:
 - Italian support thanks to [Luca Bertero](https://github.com/luca-bertero)
 - French support thanks to [Luca Bertero](https://github.com/luca-bertero)
 - German support thanks to [Luca Bertero](https://github.com/luca-bertero)
+- Portuguese support thanks to [HappityHap](https://twitter.com/Happy_Hap1227)
 
 # License
 
