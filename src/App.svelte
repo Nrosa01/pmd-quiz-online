@@ -17,7 +17,7 @@
   onMount(() => {
     musicBg.volume = 0.1;
     setTimeout(() => {
-      window.scrollTo({top: document.body.scrollHeight, behavior:"smooth"});
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
     }, 100);
   });
 
@@ -101,7 +101,8 @@
             class="flex flex-col select-none justify-center items-center text-center h-[45vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
             on:click="{() => {
               canStart = true;
-            }}" on:keydown>
+            }}"
+            on:keydown>
             <h1 class="text-4xl lg:text-8xl text-white animate-pulse">
               {data.strings["NormalMode"]}
             </h1>
@@ -114,7 +115,8 @@
             on:click="{() => {
               canStart = true;
               $store.numQuestions = -1;
-            }}" on:keydown>
+            }}"
+            on:keydown>
             <h1 class="text-4xl lg:text-8xl text-white animate-pulse">
               {data.strings["FullMode"]}
             </h1>
@@ -123,14 +125,15 @@
             </h1>
           </div>
           <div
-          class="flex flex-col select-none justify-center items-center text-center h-[10vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
-          on:click="{() => {
-            window.open("https://twitter.com/rionisguild", "_blank");
-          }}" on:keydown>
-          <p class="text-sm lg:text-2xl text-white/75 underline">
-          {data.strings["Credits"]}
-          </p>
-        </div>
+            class="flex flex-col select-none justify-center items-center text-center h-[10vh] w-screen bg-black/50 hover:bg-black/60 transition-all duration-300 z-10"
+            on:click="{() => {
+              window.open('https://twitter.com/rionisguild', '_blank');
+            }}"
+            on:keydown>
+            <p class="text-sm lg:text-2xl text-white/75 underline">
+              {data.strings["Credits"]}
+            </p>
+          </div>
         </div>
       {/if}
     </section>
