@@ -22,7 +22,7 @@
   });
 
   let pokemons = [
-    "bulbasaur",
+    "bulbasauuuur",
     "charmander",
     "chikorita",
     "chimchar",
