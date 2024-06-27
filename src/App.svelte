@@ -24,7 +24,7 @@
   let pokemons = [
     "bulbasauuuur",
     "charmandeeeer",
-    "chikorita",
+    "chikoriiiita",
     "chimchar",
     "cyndaquil",
     "eevee",
